@@ -1,3 +1,5 @@
+startup/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -19,38 +21,40 @@ wheels/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
-.installed.cfg
 *.egg
 MANIFEST
 
-# Virtual Environment
+# Virtual environments
 venv/
 ENV/
 env/
-.venv
 
-# IDE
+# IDEs
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
+
+# OS
 .DS_Store
+Thumbs.db
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
 
-# Environment variables
-.env
-.env.local
+# Data files
+*.csv
+*.xlsx
+*.json
+data/
+datasets/
 
-# Testing
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Data files (optional - uncomment if you don't want to track data)
-# *.csv
-# *.mat
-# *.h5
-# *.pkl
+# Model files
+*.h5
+*.pkl
+*.pth
+*.onnx
+models/
+checkpoints/
