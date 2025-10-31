@@ -4,24 +4,49 @@
 
 ---
 
-## Portfolio Overview
+## ⚡ Available Now for Licensing/Acquisition
 
-Independent inventor specializing in breakthrough methods for AI system monitoring and physical system degradation detection. Current portfolio includes one filed provisional patent with three additional innovations under development.
+### Task-Identity: Behavioral Drift Detection for AI Systems
 
-**Core Focus Areas:**
-- Behavioral drift detection in production AI systems
-- Neural network training efficiency prediction
-- Transfer learning optimization
-- Physical system degradation monitoring
+**Status:** 🟢 **Provisional Patent Filed (October 2025)**  
+**Availability:** Open for exclusive or non-exclusive licensing now
 
-**Validation Approach:** All methods validated exclusively on real, published datasets across multiple domains including computer vision, natural language processing, medical AI, audio processing, and industrial sensor data.
+**What it does:** Detects catastrophic AI model failures that existing drift monitors completely miss.
+
+**The Problem It Solves:**  
+In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (total failure). Traditional embedding-based drift detection reported a score of 0.583 ("moderate, looks stable"). Task-Identity scored 0.000 and immediately flagged the catastrophic failure.
+
+**Detection Gap:** 58.3 percentage points better than state-of-the-art drift monitoring.
+
+**Validation:**
+- 11 comprehensive tests across 4 domains
+- Computer Vision, NLP, Medical AI, Audio/Speech
+- 95%+ coverage of production ML classification workloads
+- [View complete validation →](./task-identity/)
+
+**Commercial Applications:**
+- Production ML monitoring (prevents silent failures)
+- Autonomous vehicle safety systems
+- Medical AI quality control
+- Content moderation systems
+- Voice assistant reliability
+
+**Licensing:** Exclusive or non-exclusive licenses available immediately.
 
 ---
 
-## 📁 Patent Portfolio
+## Patent Portfolio & Pipeline
 
-### 1. [Task-Identity](./task-identity/) 
-**Status:** 🟢 Provisional Patent Filed (October 2025)
+**Portfolio Status:**
+- ✅ 1 provisional patent filed (Task-Identity - available now)
+- 🔬 3 innovations validated and ready for filing (pipeline assets)
+
+---
+
+### Filed Patents
+
+#### 1. [Task-Identity](./task-identity/) 
+**Status:** 🟢 **Provisional Patent Filed (October 2025)**
 
 Universal behavioral drift detection for AI classification systems. Detects when models change decision-making patterns over time.
 
@@ -31,11 +56,13 @@ Universal behavioral drift detection for AI classification systems. Detects when
 - Detected critical failures missed by traditional metrics (58.3 percentage point detection gap)
 - 95%+ coverage of production ML workloads
 
-**Commercial Impact:** Prevents silent production failures in deployed ML systems. Applicable to autonomous vehicles, content moderation, medical diagnostics, voice assistants, and any classification-based AI.
+**Licensing:** Exclusive or non-exclusive licenses available now.
 
 ---
 
-### 2. [Identity Formation Detection](./identity-formation-detection/)
+### Pipeline (Validated, Pre-Filing IP)
+
+#### 2. [Identity Formation Detection](./identity-formation-detection/)
 **Status:** 🟡 Validation Complete, Ready for Filing
 
 Predicts neural network training efficiency after just one epoch of training. Enables rapid architecture evaluation without full training cycles.
@@ -46,11 +73,13 @@ Predicts neural network training efficiency after just one epoch of training. En
 - Predicts 5-50+ epoch training requirements from epoch 1
 - Enables 80-98% reduction in neural architecture search compute
 
-**Commercial Impact:** Transforms neural architecture search from weeks to hours. Critical for companies testing hundreds of model configurations. Estimated compute savings: $50K-500K per architecture search project.
+**Commercial Impact:** Transforms neural architecture search from weeks to hours. Estimated compute savings: $50K-500K per architecture search project.
+
+**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
 
 ---
 
-### 3. [Transfer Learning Prediction](./transfer-learning-prediction/)
+#### 3. [Transfer Learning Prediction](./transfer-learning-prediction/)
 **Status:** 🟡 Validation Complete, Ready for Filing
 
 Zero-shot model evaluation predicts transfer learning success before fine-tuning. Tests 100 pre-trained models in 1 hour instead of 100 hours.
@@ -61,11 +90,13 @@ Zero-shot model evaluation predicts transfer learning success before fine-tuning
 - Universal pattern from tiny (16 neurons) to massive (384 neurons) models
 - 92% compute cost reduction validated
 
-**Commercial Impact:** Enables rapid pre-trained model selection. Companies can evaluate entire model hubs (Hugging Face, TensorFlow Hub) in hours instead of weeks. Prevents wasted compute on models that won't transfer effectively.
+**Commercial Impact:** Enables rapid pre-trained model selection for Hugging Face, TensorFlow Hub, and cloud ML platforms.
+
+**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
 
 ---
 
-### 4. [Adaptive Threshold Framework](./adaptive-threshold-framework/)
+#### 4. [Adaptive Threshold Framework](./adaptive-threshold-framework/)
 **Status:** 🟡 Validation Complete, Ready for Filing
 
 System degradation detection across physical domains using adaptive thresholds. Validated on mechanical and electrochemical systems.
@@ -76,7 +107,9 @@ System degradation detection across physical domains using adaptive thresholds. 
 - 100% success rate on battery capacity degradation
 - Rescued 7 failed detection scenarios
 
-**Commercial Impact:** Predictive maintenance for industrial equipment, battery management systems, and critical infrastructure. Applicable to manufacturing, energy storage, aerospace, and IoT monitoring.
+**Commercial Impact:** Predictive maintenance for industrial equipment, battery management systems, aerospace, and critical infrastructure monitoring.
+
+**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
 
 ---
 
@@ -111,9 +144,8 @@ All innovations follow rigorous validation protocols:
 
 ## 💼 Commercial Inquiries
 
-**Status:** Open to acquisition discussions and licensing opportunities
-
-**Contact:** Via GitHub or LinkedIn
+**Task-Identity:** Available for licensing or acquisition now  
+**Pipeline Assets:** Available under NDA for serious buyers
 
 **Portfolio Value:** Estimated $15-30M across all innovations
 
