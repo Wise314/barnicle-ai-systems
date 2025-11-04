@@ -155,8 +155,8 @@ All innovations follow rigorous validation protocols:
 **Contact:**
 - 📧 Email: ShawnBarnicle.ai@gmail.com
 - 📧 Email: ShawnBarnicle@proton.me
-💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
-🐙 GitHub: [@Wise314](https://github.com/Wise314)
+- 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
+- 🐙 GitHub: [@Wise314](https://github.com/Wise314)
 
 **Response Time:** 24-48 hours for licensing inquiries
 
