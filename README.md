@@ -19,7 +19,7 @@ In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (
 **Detection Gap:** 58.3 percentage points better than state-of-the-art drift monitoring.
 
 **Validation:**
-- 11 comprehensive tests across 4 domains
+- 11 comprehensive tests across 4 domains (+ Test #12 financial services - post-provisional)
 - Computer Vision, NLP, Medical AI, Audio/Speech
 - 95%+ coverage of production ML classification workloads
 - [View complete validation →](./task-identity/)
@@ -51,14 +51,19 @@ In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (
 Universal behavioral drift detection for AI classification systems. Detects when models change decision-making patterns over time.
 
 **Key Results:**
-- Validated across 11 comprehensive tests
-- 4 domains: Computer Vision, NLP, Medical AI, Audio
+- Validated across 11 comprehensive tests (+ Test #12 post-provisional)
+- 5 domains: Computer Vision, NLP, Medical AI, Audio, Financial Services
 - Detected critical failures missed by traditional metrics (58.3 percentage point detection gap)
 - 95%+ coverage of production ML workloads
 
 **Licensing:** Exclusive or non-exclusive licenses available now.
 
 ---
+
+**Post-Provisional Work:**
+- Test #12: Financial lending behavioral drift (Lending Club 2.2M loans)
+- Per-class Task-Identity: 0.000 detection (92.1 point improvement over standard method)
+- See [post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
 
 ### Pipeline (Validated, Pre-Filing IP)
 
