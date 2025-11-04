@@ -148,20 +148,19 @@ Validated across dramatically different domains:
 
 ## Technical Approach
 
-**What It Measures:** Behavioral similarity through decision pattern analysis
+**What It Measures:** Behavioral similarity between model predictions across time periods
 
 **Training Required:** None - works on predictions from any two time periods
 
-**Computational Cost:** O(K²) where K is number of classes (extremely lightweight)
+**Computational Cost:** Extremely lightweight (milliseconds to compute)
 
 **Output:** Score from 0.0 (completely different behavior) to 1.0 (identical behavior)
 
-**Threshold Guidelines:**
-- 0.95-1.00: Stable behavior
-- 0.85-0.95: Minor changes, monitor
-- 0.70-0.85: Moderate shift, investigate
-- 0.50-0.70: Major change, action required
-- 0.00-0.50: Catastrophic shift, critical failure
+**Interpretation:**
+- Scores near 1.0 indicate stable behavior
+- Scores near 0.5 indicate moderate behavioral shifts
+- Scores near 0.0 indicate catastrophic behavioral changes
+- Specific operational thresholds depend on application requirements
 
 ---
 
@@ -174,7 +173,7 @@ Traditional drift detection methods focus on:
 
 **The Problem:** Models can maintain similar internal representations while making fundamentally different mistakes.
 
-**Task-Identity Solution:** Directly measures what the model confuses with what - the complete behavioral fingerprint.
+**Task-Identity Solution:** Directly measures the model's decision-making patterns - the complete behavioral fingerprint.
 
 ---
 
