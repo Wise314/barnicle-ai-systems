@@ -10,7 +10,7 @@
 
 The Adaptive Threshold Framework detects degradation in physical systems using adaptive thresholds that respond to behavioral transformation. Unlike static threshold methods, this approach adjusts detection sensitivity based on how dramatically the system's behavior has changed from baseline.
 
-**Key Innovation:** Mathematical dampening prevents over-correction during extreme behavioral collapse while maintaining sensitivity.
+**Key Innovation:** Controlled adaptation prevents over-correction during extreme behavioral changes while maintaining sensitivity.
 
 ---
 
