@@ -152,8 +152,15 @@ All innovations follow rigorous validation protocols:
 **Task-Identity:** Available for licensing or acquisition now  
 **Pipeline Assets:** Available under NDA for serious buyers
 
-**Portfolio Value:** Estimated $15-30M across all innovations
+**Contact:**
+- 📧 Email: ShawnBarnicle.ai@gmail.com
+- 📧 Email: ShawnBarnicle@proton.me
+- 💼 LinkedIn: linkedin.com/in/shawn-barnicle-811887390
+- 🐙 GitHub: [@Wise314](https://github.com/Wise314)
 
+**Response Time:** 24-48 hours for licensing inquiries
+
+**Portfolio Value:** Estimated $15-30M across all innovations
 ---
 
 ## 📝 License
