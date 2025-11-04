@@ -26,18 +26,11 @@ Identity Formation Detection predicts how much training a neural network archite
 
 **Conclusion:** Method is dataset-independent and universal across task difficulty.
 
-### The Pattern
+## The Pattern
 
-```
-Formation Score → Remaining Training Needed
-──────────────────────────────────────────
-0.10 - 0.70    → 50+ epochs (slow learner)
-0.70 - 0.90    → 20-30 epochs (moderate)
-0.90 - 0.99    → 10-15 epochs (efficient)
-0.99+          → 5-10 epochs (very efficient)
-```
+**Key Finding:** Early training behavior predicts total training requirements.
 
-**This pattern holds regardless of dataset complexity.**
+Architectures demonstrating stronger behavioral formation after one epoch require significantly less training to reach convergence. This relationship holds consistently regardless of dataset complexity.
 
 ---
 
@@ -210,23 +203,6 @@ Formation Score → Remaining Training Needed
 ✅ **Statistical Rigor** - P-values, significance testing (p < 0.05)  
 ✅ **Cross-Validation** - Multiple datasets tested  
 ✅ **Honest Failures** - Test 2 documented (hypothesis rejected)  
-
----
-
-## Proposed Patent Claims
-
-**Independent Claim 1:**  
-Method for predicting neural network training efficiency by measuring behavioral formation after minimal training, wherein formation scores demonstrate dataset-independent inverse correlation (r < -0.75) with accuracy improvement rate.
-
-**Independent Claim 2:**  
-System for rapid neural architecture evaluation that measures behavioral formation after single epoch to predict computational cost of full training, enabling architecture selection without full convergence testing.
-
-**Dependent Claims:**
-- Application to neural architecture search
-- Application to hyperparameter optimization
-- Application to transfer learning validation
-- Universal applicability across dataset complexity
-- Extension to computer vision, NLP, and audio domains
 
 ---
 
