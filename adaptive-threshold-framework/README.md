@@ -25,7 +25,7 @@ The Adaptive Threshold Framework detects degradation in physical systems using a
 - 2 enhanced (already passing → better scores)
 - 1 new validation (F1 0.920)
 
-**Tuning Parameter:** α = 0.1 (vibration-based degradation)
+**Tuning Parameter:** Domain-specific (vibration-based degradation)
 
 | Test | Dataset | Behavioral Collapse | F1 Score | Status |
 |------|---------|---------------------|----------|--------|
@@ -46,7 +46,7 @@ The Adaptive Threshold Framework detects degradation in physical systems using a
 
 **Success Rate:** 3 of 3 batteries pass (100%)
 
-**Tuning Parameter:** α = 0.034 (capacity-based degradation)
+**Tuning Parameter:** Domain-specific (capacity-based degradation)
 
 | Test | Dataset | Behavioral Collapse | F1 Score | Status |
 |------|---------|---------------------|----------|--------|
@@ -62,33 +62,27 @@ The Adaptive Threshold Framework detects degradation in physical systems using a
 
 ### 1. Behavioral Collapse Threshold
 
-**Critical Finding:** Behavioral collapse < 0.25 predicts rescue success
+**Critical Finding:** Degree of behavioral collapse correlates with rescue success
 
-| Collapse Range | Success Rate | Notes |
-|----------------|--------------|-------|
-| < 0.05 | 100% | Extreme collapse, strong rescue |
-| 0.05 - 0.10 | 100% | Strong behavioral collapse |
-| 0.10 - 0.15 | 100% | Moderate collapse |
-| 0.15 - 0.25 | 100% | Mild collapse |
-| ≥ 0.25 | 0% | Insufficient collapse for rescue |
+Systems showing significant behavioral transformation from baseline demonstrate higher likelihood of successful degradation detection. The method adapts detection sensitivity based on the severity of behavioral change observed.
 
 ### 2. Domain-Specific Tuning Parameters
 
 **Each physical domain requires its own tuned parameter:**
-- **Bearings:** α = 0.1 (vibration-based degradation)
-- **Batteries:** α = 0.034 (capacity-based degradation)
+- **Bearings:** Domain-specific tuning (vibration-based degradation)
+- **Batteries:** Domain-specific tuning (capacity-based degradation)
 - **Future domains:** Parameter must be determined through validation
 
 **Critical Lesson:** Never assume one parameter works across domains.
 
-### 3. The Alpha Mistake
+### 3. Domain-Specific Calibration
 
-**Initial battery tests used α = 1.0 and failed catastrophically.**
+**Initial battery tests used incorrect parameters and failed.**
 
-Using correct domain-specific α = 0.034 resulted in all batteries maintaining or improving performance.
+Using correct domain-specific calibration resulted in all batteries maintaining or improving performance.
 
 **Lesson:** Domain-specific calibration is mandatory.
-
+```
 ---
 
 ## Performance Improvements
@@ -116,9 +110,9 @@ Using correct domain-specific α = 0.034 resulted in all batteries maintaining o
 ### Battery Validation
 
 All 3 NASA batteries maintain or improve:
-- Small parameter (0.034) means subtle adjustments
-- High behavioral stability (0.58-0.72) doesn't prevent formula from working
-- Proves formula works across different physical phenomena
+- Proper domain-specific tuning enables subtle adjustments
+- High behavioral stability (0.58-0.72) doesn't prevent method from working
+- Proves approach works across different physical phenomena
 
 ---
 
@@ -184,29 +178,24 @@ All 3 NASA batteries maintain or improve:
 
 ### Mathematical Foundation
 
-**Adaptive formula with square root dampening:**
+**Adaptive threshold methodology:**
 
 The method adjusts detection thresholds based on:
 1. System degradation rate
-2. Behavioral transformation (collapse)
-3. Temporal pattern consistency
+2. Behavioral transformation patterns
+3. Temporal consistency
 
-**Square Root Dampening:** Prevents over-correction during extreme behavioral collapse
+**Controlled Adaptation:** Prevents over-correction during extreme behavioral changes while maintaining detection sensitivity.
 
-**For extreme collapse (0.06):**
-- Linear approach: 94% threshold reduction (too aggressive)
-- Square root approach: 76% threshold reduction (optimal)
+**Result:** Successfully detects degradation across varying behavioral transformation scenarios without creating false positives
 
-**Result:** Successfully rescues failed detections without creating false positives
 
 ### Physical Interpretation
 
-**Behavioral Collapse** occurs when a system's behavior fundamentally transforms:
+**Behavioral Transformation** occurs when a system's behavior fundamentally changes:
 - **Bearings:** Vibration patterns change from smooth to chaotic as wear progresses
 - **Batteries:** Charging/discharging behavior shifts as capacity degrades
-- **Key Insight:** The square root term maps non-linear physical transformation to threshold adjustment
-
----
+- **Key Insight:** Non-linear physical transformation is mapped to adaptive threshold adjustment
 
 ## Validation Standards
 
@@ -261,19 +250,19 @@ The method adjusts detection thresholds based on:
 
 ### Novel Concepts
 
-**1. Behavioral Collapse Adaptation**
+**1. Behavioral Transformation Adaptation**
 - Traditional methods use static thresholds
 - Our method: Threshold adapts to behavioral transformation severity
-- Result: Sensitive during stability, aggressive during collapse
+- Result: Sensitive during stability, responsive during transformation
 
-**2. Square Root Dampening**
-- Mathematical sweet spot discovered empirically
-- Prevents over-correction
-- Maintains detection capability
+**2. Controlled Adaptation**
+- Optimal balance discovered through empirical validation
+- Prevents over-correction while maintaining sensitivity
+- Maintains detection capability across behavioral states
 
 **3. Domain-Specific Tuning**
 - Each physical domain has unique degradation signature
-- Single parameter captures domain characteristics
+- Calibration captures domain characteristics
 - Validated independently per domain
 
 ---
@@ -295,7 +284,7 @@ The method adjusts detection thresholds based on:
 - Behavioral transformation adaptation (novel)
 - Cross-domain validation (not domain-specific)
 - Proven rescue capability (7 bearings from failure to passing)
-- Mathematical rigor (square root dampening empirically discovered)
+- Mathematical rigor (controlled adaptation empirically validated)
 
 ---
 
