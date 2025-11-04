@@ -239,23 +239,6 @@ Transfer Learning Prediction enables rapid evaluation of pre-trained models with
 
 ---
 
-## Proposed Patent Claims
-
-**Independent Claim 1:**  
-Method for predicting transfer learning success through zero-shot behavioral quality measurement, wherein said measurement demonstrates statistically significant correlation (p < 0.00001) with post-transfer performance across multiple model architectures.
-
-**Independent Claim 2:**  
-System for rapid pre-trained model evaluation that measures zero-shot behavioral quality to predict transfer learning outcomes, enabling model selection without fine-tuning, wherein said system demonstrates universal applicability across model sizes ranging from 16 to 384+ parameters.
-
-**Dependent Claims:**
-- Application to model hub evaluation (Hugging Face, TensorFlow Hub)
-- Application to cloud ML services
-- Application to computer vision transfer learning
-- Universal applicability across model architectures
-- 92% compute cost reduction validated
-
----
-
 ## Repository
 
 Full validation code, bug discovery log, and multi-architecture testing available at:  
