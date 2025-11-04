@@ -17,7 +17,7 @@ Task-Identity is a training-free method that measures behavioral similarity betw
 ## Validation Results
 
 **Comprehensive Testing:**
-- ✅ 11 tests across 4 domains
+- ✅ 11 tests across 4 domains (+ Test #12 financial - post-provisional)
 - ✅ Computer Vision (8 tests)
 - ✅ Natural Language Processing (1 test)
 - ✅ Medical AI (1 test)
@@ -31,6 +31,7 @@ Task-Identity is a training-free method that measures behavioral similarity betw
 - 20 Newsgroups (text classification)
 - Wisconsin Breast Cancer (medical diagnosis)
 - Free Spoken Digit Dataset (audio recordings)
+- Lending Club Loans 2007-2018 (financial - post-provisional)
 
 ---
 
@@ -60,6 +61,23 @@ Validated across dramatically different domains:
 - ✅ Text (news articles)
 - ✅ Medical data (clinical diagnosis)
 - ✅ Audio (spoken words)
+
+### Post-Provisional Validation
+
+**Test #12: Financial Services (November 2025)**
+- Dataset: Lending Club 2.2M real loans
+- Per-class Task-Identity: 0.000 (detected catastrophic drift)
+- Standard method: 0.921 (missed the drift - 92.1 point detection gap)
+- [View post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
+```
+
+4. **Line 141 - Change:**
+```
+✅ **11 comprehensive tests** - Across 4 domains
+```
+**To:**
+```
+✅ **11 comprehensive tests** - Across 4 domains (+ financial post-provisional)
 
 **Conclusion:** Method works universally across data modalities.
 
@@ -163,7 +181,7 @@ Traditional drift detection methods focus on:
 ## Validation Standards
 
 ✅ **Real datasets only** - No synthetic data  
-✅ **11 comprehensive tests** - Across 4 domains  
+✅ **11 comprehensive tests** - Across 4 domains (+ financial post-provisional)  
 ✅ **Statistical rigor** - P-values, significance testing  
 ✅ **Honest failures** - Documented what didn't work  
 ✅ **Published datasets** - All publicly available and cited  
