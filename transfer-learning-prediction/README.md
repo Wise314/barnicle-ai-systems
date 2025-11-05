@@ -91,7 +91,7 @@ Multiple evaluation metrics demonstrated statistically significant correlation w
 
 ### Our Solution
 
-**Zero-Shot Prediction:**
+**Rapid Evaluation:**
 - Test 100 models × 5 minutes each = 8 hours total
 - Measure predictive metrics
 - Predict success before fine-tuning
@@ -108,7 +108,7 @@ Multiple evaluation metrics demonstrated statistically significant correlation w
 - TensorFlow Hub: Thousands of models
 - PyTorch Hub: Extensive model library
 - **Problem:** Which model will work for my task?
-- **Solution:** Test all models zero-shot, predict winners
+- **Solution:** Rapid evaluation predicts which models will succeed
 
 ### Cloud ML Services
 - AWS SageMaker: Model marketplace
