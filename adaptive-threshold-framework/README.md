@@ -1,4 +1,8 @@
-# Adaptive Threshold Framework: System Degradation Detection
+```
+
+Once nano opens, use `Ctrl+W` to search for the text:
+```
+The method adjusts detection thresholds based on:# Adaptive Threshold Framework: System Degradation Detection
 
 **Adaptive threshold detection with behavioral transformation for physical system monitoring**
 
@@ -180,10 +184,7 @@ All 3 NASA batteries maintain or improve:
 
 **Adaptive threshold methodology:**
 
-The method adjusts detection thresholds based on:
-1. System degradation rate
-2. Behavioral transformation patterns
-3. Temporal consistency
+The method incorporates multiple system health indicators to dynamically adjust detection sensitivity based on observed behavioral changes.
 
 **Controlled Adaptation:** Prevents over-correction during extreme behavioral changes while maintaining detection sensitivity.
 
