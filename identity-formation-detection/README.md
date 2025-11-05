@@ -12,7 +12,7 @@ After Multi-Architecture Validation
 
 Identity Formation Detection predicts how much training a neural network architecture will require by testing it for just one epoch. This enables rapid architecture evaluation without full training cycles - transforming architecture search from weeks to hours.
 
-**Key Discovery:** Formation score at epoch 1 predicts remaining training needed to reach convergence.
+**Key Discovery:** Early training indicators predict remaining training requirements to reach convergence.
 
 ---
 
@@ -28,11 +28,7 @@ Identity Formation Detection predicts how much training a neural network archite
 
 **Conclusion:** Method is dataset-independent and universal across task difficulty.
 
-## The Pattern
-
-**Key Finding:** Early training behavior predicts total training requirements.
-
-Architectures demonstrating stronger behavioral formation after one epoch require significantly less training to reach convergence. This relationship holds consistently regardless of dataset complexity.
+**Key Finding:** Early training indicators correlate with total training requirements across different architectures and datasets.
 
 ---
 
@@ -158,18 +154,9 @@ Architectures demonstrating stronger behavioral formation after one epoch requir
 
 ## Technical Approach
 
-**What It Measures:** Predictive signal in early training dynamics that correlates with final training requirements
+**What It Measures:** Predictive indicators in early training that correlate with final training requirements across architectures and datasets.
 
-**Why It Works:**
-- Low formation (0.2): Network hasn't figured out patterns → needs lots more training
-- High formation (0.99): Network already learned main patterns → just needs refinement
-
-**Evidence:** Pattern validated independently on:
-- Easy dataset (MNIST): 10 classes, 28×28 images
-- Hard dataset (CIFAR-10): 10 classes, 32×32 color images
-- **Result:** Identical correlation (r ≈ -0.78)
-
-**Universality Proven:** Method independent of task difficulty
+**Universality Proven:** Method validated independently on easy (MNIST) and complex (CIFAR-10) datasets with identical correlation (r ≈ -0.78), demonstrating task-independence.
 
 ---
 
@@ -191,9 +178,9 @@ Architectures demonstrating stronger behavioral formation after one epoch requir
 - Partial failure: Can't screen most bad architectures
 
 ### Step 4: Pattern Recognition (MNIST Breakthrough)
-- Noticed: Accuracy gap correlates with formation score
+- Noticed: Early training indicators correlate with final training requirements
 - Test 3 validated: r = -0.780 (strong correlation)
-- Discovery: Formation predicts training efficiency!
+- Discovery: Early indicators predict training efficiency!
 
 ### Step 5: Generalization Test (CIFAR-10 Validation)
 - Question: Does this only work on MNIST?
