@@ -87,7 +87,7 @@ Predicts neural network training efficiency after just one epoch of training. En
 #### 3. [Transfer Learning Prediction](./transfer-learning-prediction/)
 **Status:** 🟡 Validation Complete, Ready for Filing
 
-Zero-shot model evaluation predicts transfer learning success before fine-tuning. Tests 100 pre-trained models in 1 hour instead of 100 hours.
+Rapid model evaluation predicts transfer learning success before fine-tuning. Tests 100 pre-trained models in 1 hour instead of 100 hours.
 
 **Key Results:**
 - Validated across 96 tests spanning 8 model architectures
