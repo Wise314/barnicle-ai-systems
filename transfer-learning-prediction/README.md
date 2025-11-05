@@ -1,6 +1,6 @@
 # Transfer Learning Prediction: Rapid Pre-trained Model Evaluation
 
-**Predicting transfer learning success from zero-shot testing across all model architectures**
+**Predicting transfer learning success through rapid evaluation across all model architectures**
 
 **Status:** 🟡 **Validation Complete, Ready for Filing**
 
