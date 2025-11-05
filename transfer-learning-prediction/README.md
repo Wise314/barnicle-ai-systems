@@ -95,7 +95,7 @@ Multiple zero-shot metrics demonstrated statistically significant correlation wi
 
 **Zero-Shot Prediction:**
 - Test 100 models × 5 minutes each = 8 hours total
-- Measure behavioral quality
+- Measure predictive metrics
 - Predict success before fine-tuning
 - **92% compute savings validated**
 
