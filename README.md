@@ -48,7 +48,7 @@ In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (
 #### 1. [Task-Identity](./task-identity/) 
 **Status:** 🟢 **Provisional Patent Filed (October 2025)**
 
-Universal behavioral drift detection for AI classification systems. Detects when models change decision-making patterns over time.
+Universal behavioral drift detection for AI classification systems. Detects when models change prediction behaviors over time.
 
 **Key Results:**
 - Validated across 11 comprehensive tests (+ Test #12 post-provisional)
