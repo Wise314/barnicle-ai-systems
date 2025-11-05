@@ -1,5 +1,3 @@
-```
-After Multi-Architecture Validation
 # Identity Formation Detection: Training Efficiency Prediction
 
 **Predicting neural network training efficiency from single epoch testing**
