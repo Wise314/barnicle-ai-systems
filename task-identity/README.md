@@ -8,7 +8,7 @@
 
 ## Overview
 
-Task-Identity is a training-free method that measures behavioral similarity between AI classification models across time periods. Unlike embedding-based drift detection, Task-Identity directly measures what the model actually does - its decision-making patterns.
+Task-Identity is a training-free method that measures behavioral similarity between AI classification models across time periods. Unlike embedding-based drift detection, Task-Identity directly measures what the model actually does - its prediction behavior across different scenarios.
 
 **Key Innovation:** Detects catastrophic failures that traditional similarity metrics completely miss.
 
@@ -171,9 +171,9 @@ Traditional drift detection methods focus on:
 - Internal representation shifts (embedding drift)
 - Single performance metrics (accuracy monitoring)
 
-**The Problem:** Models can maintain similar internal representations while making fundamentally different mistakes.
+**The Problem:** Models can maintain similar internal representations while exhibiting fundamentally different prediction behaviors.
 
-**Task-Identity Solution:** Directly measures the model's decision-making patterns - the complete behavioral fingerprint.
+**Task-Identity Solution:** Directly measures comprehensive model behavior across prediction scenarios, capturing behavioral changes that structural metrics miss.
 
 ---
 
