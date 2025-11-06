@@ -38,14 +38,13 @@ In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (
 ## Patent Portfolio & Pipeline
 
 **Portfolio Status:**
-- ✅ 1 provisional patent filed (Task-Identity - available now)
-- 🔬 3 innovations validated and ready for filing (pipeline assets)
+- ✅ 2 provisional patents filed (available for licensing)
 
 ---
 
 ### Filed Patents
 
-#### 1. [Task-Identity](./task-identity/) 
+#### 1. [Task-Identity](./task-identity/)
 **Status:** 🟢 **Provisional Patent Filed (October 2025)**
 
 Universal behavioral drift detection for AI classification systems. Detects when models change prediction behaviors over time.
@@ -65,10 +64,8 @@ Universal behavioral drift detection for AI classification systems. Detects when
 - Per-class Task-Identity: 0.000 detection (92.1 point improvement over standard method)
 - See [post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
 
-### Pipeline (Validated, Pre-Filing IP)
-
 #### 2. [Identity Formation Detection](./identity-formation-detection/)
-**Status:** 🟡 Validation Complete, Ready for Filing
+**Status:** 🟢 **Provisional Patent Filed (November 2025)**
 
 Predicts neural network training efficiency after just one epoch of training. Enables rapid architecture evaluation without full training cycles.
 
@@ -80,41 +77,14 @@ Predicts neural network training efficiency after just one epoch of training. En
 
 **Commercial Impact:** Transforms neural architecture search from weeks to hours. Estimated compute savings: $42K-480K per architecture search project.
 
-**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
+**Licensing:** Exclusive or non-exclusive licenses available now.
 
 ---
 
-#### 3. [Transfer Learning Prediction](./transfer-learning-prediction/)
-**Status:** 🟡 Validation Complete, Ready for Filing
-
-Rapid model evaluation predicts transfer learning success before fine-tuning. Tests 100 pre-trained models in 1 hour instead of 100 hours.
-
-**Key Results:**
-- Validated across 96 tests spanning 8 model architectures
-- Statistical significance: p = 0.000006
-- Universal pattern from tiny (16 neurons) to massive (384 neurons) models
-- 92% compute cost reduction validated
-
-**Commercial Impact:** Enables rapid pre-trained model selection for Hugging Face, TensorFlow Hub, and cloud ML platforms.
-
-**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
-
----
-
-#### 4. [Adaptive Threshold Framework](./adaptive-threshold-framework/)
-**Status:** 🟡 Validation Complete, Ready for Filing
-
-System degradation detection across physical domains using adaptive thresholds. Validated on mechanical and electrochemical systems.
-
-**Key Results:**
-- 13 of 13 tests passing (10 bearings + 3 batteries)
-- 67% success rate on challenging bearing datasets
-- 100% success rate on battery capacity degradation
-- Rescued 7 failed detection scenarios
-
-**Commercial Impact:** Predictive maintenance for industrial equipment, battery management systems, aerospace, and critical infrastructure monitoring.
-
-**IP Status:** This method is fully validated on real data and is currently held as proprietary pre-filing IP. Technical details available under NDA.
+**Post-Provisional Work:**
+- Test #12: Financial lending behavioral drift (Lending Club 2.2M loans)
+- Per-class Task-Identity: 0.000 detection (92.1 point improvement over standard method)
+- See [post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
 
 ---
 
