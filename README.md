@@ -62,7 +62,7 @@ Universal behavioral drift detection for AI classification systems. Detects when
 **Post-Provisional Work:**
 - Test #12: Financial lending behavioral drift (Lending Club 2.2M loans)
 - Per-class Task-Identity: 0.000 detection (92.1 point improvement over standard method)
-- See [post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
+- Additional validation available under NDA
 
 ---
 
