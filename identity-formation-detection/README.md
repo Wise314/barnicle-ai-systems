@@ -67,7 +67,7 @@ Identity Formation Detection predicts how much training a neural network archite
 **Current Approach:**
 - Test 100 architectures × 50 epochs each = 5,000 training runs
 - Time: Weeks of compute
-- Cost: $50K-500K per search project
+- Cost: $42K-480K per search project
 - Waste: Most architectures perform poorly
 
 ### Our Solution
@@ -78,7 +78,7 @@ Identity Formation Detection predicts how much training a neural network archite
 - Cost: 98% reduction
 - Insight: Predict which architectures will train efficiently
 
-**Validated Savings:** 80-98% reduction in neural architecture search compute
+**Validated Savings:** 80-95% reduction in neural architecture search compute
 
 ---
 
