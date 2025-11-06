@@ -64,6 +64,8 @@ Universal behavioral drift detection for AI classification systems. Detects when
 - Per-class Task-Identity: 0.000 detection (92.1 point improvement over standard method)
 - See [post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
 
+---
+
 #### 2. [Identity Formation Detection](./identity-formation-detection/)
 **Status:** 🟢 **Provisional Patent Filed (November 2025)**
 
@@ -120,7 +122,7 @@ All innovations follow rigorous validation protocols:
 ## 💼 Commercial Inquiries
 
 **Task-Identity:** Available for licensing or acquisition now  
-**Pipeline Assets:** Available under NDA for serious buyers
+**Both Innovations:** Available for licensing or acquisition now
 
 **Contact:**
 - 📧 Email: ShawnBarnicle.ai@gmail.com
@@ -140,7 +142,7 @@ Individual repositories may have specific licenses. See respective folders for d
 ---
 
 **Last Updated:** October 2025  
-**Patents Filed:** 1 of 4  
+**Patents Filed:** 2 of 2
 **Validation Status:** 100% complete across all innovations
 ---
 
