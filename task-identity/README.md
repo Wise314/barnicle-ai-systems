@@ -2,7 +2,17 @@
 
 **Universal metric for detecting behavioral changes in classification models across any domain**
 
-**Status:** 🟢 **Provisional Patent Filed** (October 2025)
+**Status:** 🟢 **Provisional Patent Filed - Application #63/906,072 (Oct 27, 2025)**
+
+---
+
+## 🚀 The Breakthrough
+
+**Zero Training Required. Zero Model Access Needed. Zero Infrastructure Changes.**
+
+Most AI monitoring systems require retraining models, accessing internal layers, or building complex infrastructure. Task-Identity works with just predictions - the outputs your models already produce. Deploy behavioral drift detection in minutes, not months.
+
+**The result?** Catches catastrophic failures that billion-dollar monitoring platforms completely miss, using only what your models already generate.
 
 ---
 
@@ -148,19 +158,13 @@ Validated across dramatically different domains:
 
 ## Technical Approach
 
-**What It Measures:** Behavioral similarity between model predictions across time periods
+**What It Measures:** Comprehensive behavioral patterns in model decision-making
 
 **Training Required:** None - works on predictions from any two time periods
 
 **Computational Cost:** Extremely lightweight (milliseconds to compute)
 
 **Output:** Score from 0.0 (completely different behavior) to 1.0 (identical behavior)
-
-**Interpretation:**
-- Scores near 1.0 indicate stable behavior
-- Scores near 0.5 indicate moderate behavioral shifts
-- Scores near 0.0 indicate catastrophic behavioral changes
-- Specific operational thresholds depend on application requirements
 
 ---
 
@@ -189,8 +193,9 @@ Traditional drift detection methods focus on:
 
 ## Patent Status
 
-**Provisional Patent Filed:** October 2025  
-**Status:** Active, 12-month window for full utility patent  
+**Provisional Patent Filed:** October 27, 2025
+**Application Number:** 63/906,072
+**Status:** Active, 12-month window for full utility patent
 **Claims:** Universal behavioral drift detection method, superiority over structural metrics, cross-domain applicability
 
 ---
@@ -209,6 +214,6 @@ Full validation code, test results, and comprehensive documentation available at
 
 ---
 
-**Last Updated:** October 2025  
+**Last Updated:** November 2025  
 **Patent Status:** Filed  
 **Validation:** Complete (11/11 tests passing)
