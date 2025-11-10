@@ -81,12 +81,6 @@ Predict total training requirements after 1 epoch = 100 runs instead of 5,000
 - Pre-trained model evaluation (Hugging Face, cloud providers)
 - Enterprise MLOps (Databricks, Snowflake, Scale AI)
 
-**Industrial IoT:**
-- Predictive maintenance systems (GE, Siemens)
-- Battery management (Tesla, energy companies)
-- Manufacturing quality control
-- Critical infrastructure monitoring
-
 ---
 
 ## 📊 Validation Standards
@@ -94,7 +88,7 @@ Predict total training requirements after 1 epoch = 100 runs instead of 5,000
 All innovations follow rigorous validation protocols:
 
 ✅ **Real Data Only** - No synthetic data generation  
-✅ **Published Datasets** - MNIST, CIFAR-10, XJTU Bearings, NASA Batteries, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset  
+✅ **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans
 ✅ **Statistical Rigor** - P-values, significance testing, correlation analysis  
 ✅ **Cross-Domain Testing** - Multiple domains per method to prove universality  
 ✅ **Honest Reporting** - Failed experiments documented, no cherry-picking  
