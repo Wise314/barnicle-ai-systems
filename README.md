@@ -8,7 +8,7 @@
 
 ### Task-Identity: Behavioral Drift Detection for AI Systems
 
-**Status:** 🟢 **Provisional Patent Filed (October 2025)**  
+**Status:** 🟢 **Provisional Patent Filed - Application #63/906,072 (Oct 27, 2025)**
 **Availability:** Open for exclusive or non-exclusive licensing now
 
 **What it does:** Detects catastrophic AI model failures that existing drift monitors completely miss.
@@ -45,7 +45,7 @@ In validated testing, a production model collapsed from 99.3% accuracy to 0.0% (
 ### Filed Patents
 
 #### 1. [Task-Identity](./task-identity/)
-**Status:** 🟢 **Provisional Patent Filed (October 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/906,072 (Oct 27, 2025)**
 
 Universal behavioral drift detection for AI classification systems. Detects when models change prediction behaviors over time.
 
@@ -67,7 +67,7 @@ Universal behavioral drift detection for AI classification systems. Detects when
 ---
 
 #### 2. [Identity Formation Detection](./identity-formation-detection/)
-**Status:** 🟢 **Provisional Patent Filed (November 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/914,409 (Nov 10, 2025)**
 
 Predicts neural network training efficiency after just one epoch of training. Enables rapid architecture evaluation without full training cycles.
 
@@ -134,7 +134,7 @@ Individual repositories may have specific licenses. See respective folders for d
 
 ---
 
-**Last Updated:** October 2025  
+**Last Updated:** November 2025
 **Patents Filed:** 2 of 2
 **Validation Status:** 100% complete across all innovations
 ---
