@@ -1,6 +1,6 @@
 # Shawn Barnicle | AI Systems Inventor
 
-**Two breakthrough AI technologies - both patent filed, both ready for licensing**
+**Patent-protected AI innovations available for exclusive licensing or acquisition**
 
 ---
 
