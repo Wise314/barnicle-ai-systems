@@ -142,8 +142,6 @@ Identity Formation Detection predicts how much training a neural network archite
 - Immediate ROI (savings in first project)
 - Scales from tiny to massive models
 
-**Estimated Market Value:** $10-18M
-
 ---
 
 ## Technical Approach
@@ -208,9 +206,14 @@ Identity Formation Detection predicts how much training a neural network archite
 
 ## Contact
 
-**Email:** ShawnBarnicle.ai@gmail.com  
-**Email:** ShawnBarnicle@proton.me  
-**LinkedIn:** [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)  
+**Commercial inquiries:** Open for acquisition or licensing discussions
+
+**Contact:**
+- 📧 Email: ShawnBarnicle.ai@gmail.com
+- 📧 Email: ShawnBarnicle@proton.me
+- 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
+- 🐙 GitHub: [barnicle-ai-systems](https://github.com/Wise314/barnicle-ai-systems)
+
 **Response Time:** 24-48 hours for licensing inquiries
 
 ---
