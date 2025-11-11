@@ -1,17 +1,17 @@
 # Shawn Barnicle | AI Systems Inventor
 
-**Patent-protected AI innovations available for exclusive licensing or acquisition**
+Patent-protected AI innovations available for licensing or acquisition
 
 ---
 
 ## 🚀 Portfolio Overview
 
-**✅ Zero Training Required** - Both methods work without retraining models  
+**✅ Zero Training Required** - Methods work without retraining models  
 **✅ Universal Applicability** - Validated across vision, text, audio, medical, financial domains  
 **✅ Production Ready** - Deploy immediately with existing infrastructure  
 **✅ Proven Impact** - 58% better failure detection + 94% compute reduction
 
-**Portfolio Value:** $15-30M | **Patents Filed:** 2 provisionals | **Status:** Available for licensing now
+**Patents Filed:** 2 provisionals | **Status:** Available for exclusive or non-exclusive licensing
 
 ---
 
@@ -20,14 +20,14 @@
 
 **Status:** 🟢 **Patent Filed - Application #63/906,072 (Oct 27, 2025)**
 
-**The Critical Gap:**  
+**The Critical Gap:**
 A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitoring showed 0.583 ("moderate, looks stable"). Task-Identity showed 0.000 (catastrophic failure).
 
 **Detection Gap:** 58.3 percentage points better than state-of-the-art
 
 **Validation:**
 - 12 comprehensive tests across 5 domains
-- Computer Vision, NLP, Medical AI, Audio, Financial Services  
+- Computer Vision, NLP, Medical AI, Audio, Financial Services
 - 95%+ coverage of production ML workloads
 - Zero training required
 
@@ -69,10 +69,6 @@ Predict total training requirements after 1 epoch = 100 runs instead of 5,000
 
 ---
 
-**Licensing:** Exclusive or non-exclusive licenses available immediately.
-
----
-
 ## 🎯 Target Applications
 
 **AI/ML Industry:**
@@ -98,18 +94,19 @@ All innovations follow rigorous validation protocols:
 
 ## 💼 Commercial Inquiries
 
-**Task-Identity:** Available for licensing or acquisition now  
-**Both Innovations:** Available for licensing or acquisition now
+Both innovations available for immediate licensing or acquisition.
+
+**Licensing Options:** Exclusive or non-exclusive arrangements available.
 
 **Contact:**
 - 📧 Email: ShawnBarnicle.ai@gmail.com
 - 📧 Email: ShawnBarnicle@proton.me
 - 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
-- 🐙 GitHub: [@Wise314](https://github.com/Wise314)
+- 🐙 GitHub: [barnicle-ai-systems](https://github.com/Wise314/barnicle-ai-systems)
 
 **Response Time:** 24-48 hours for licensing inquiries
 
-**Portfolio Value:** Estimated $15-30M across all innovations
+
 ---
 
 ## 📝 License
