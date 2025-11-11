@@ -79,15 +79,6 @@ Validated across dramatically different domains:
 - Per-class Task-Identity: 0.000 (detected catastrophic drift)
 - Standard method: 0.921 (missed the drift - 92.1 point detection gap)
 - [View post-provisional work →](https://github.com/Wise314/task-identity/tree/main/post_provisional_patent)
-```
-
-4. **Line 141 - Change:**
-```
-✅ **11 comprehensive tests** - Across 4 domains
-```
-**To:**
-```
-✅ **11 comprehensive tests** - Across 4 domains (+ financial post-provisional)
 
 **Conclusion:** Method works universally across data modalities.
 
@@ -152,8 +143,6 @@ Validated across dramatically different domains:
 - Training-free (no model retraining required)
 - Lightweight implementation (milliseconds to compute)
 
-**Estimated Market Value:** $5-8M
-
 ---
 
 ## Technical Approach
@@ -209,8 +198,15 @@ Full validation code, test results, and comprehensive documentation available at
 
 ## Contact
 
-**Commercial inquiries:** Open for acquisition or licensing discussions  
-**Technical questions:** See main repository for detailed validation results
+**Commercial inquiries:** Open for acquisition or licensing discussions
+
+**Contact:**
+- 📧 Email: ShawnBarnicle.ai@gmail.com
+- 📧 Email: ShawnBarnicle@proton.me
+- 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
+- 🐙 GitHub: [barnicle-ai-systems](https://github.com/Wise314/barnicle-ai-systems)
+
+**Response Time:** 24-48 hours for licensing inquiries
 
 ---
 
