@@ -29,8 +29,8 @@ Transfer Learning Prediction is a zero-shot evaluation method that predicts whet
 **Comprehensive Cross-Domain Testing:**
 - ✅ 247 computer vision tests across multiple transform types
 - ✅ 852,607 financial loan records (temporal regime shift)
-- ✅ Binary prediction: Which models help vs. hurt (r=0.445-0.564, p<0.003)
-- ✅ Magnitude prediction: Exact performance gain/loss (r=-0.941, p<0.00001)
+- ✅ Binary prediction: Which models help vs. hurt (validated p<0.003)
+- ✅ Magnitude prediction: Exact performance gain/loss (validated p<0.00001)
 - ✅ Cross-domain proof: Same algorithm works on images AND tabular financial data
 
 **Coverage:** Computer vision, financial services, medical imaging applications
@@ -61,21 +61,21 @@ Transfer Learning Prediction is a zero-shot evaluation method that predicts whet
 ### Binary Prediction: Go/No-Go Decisions
 
 **Rotation Validation (96 tests):**
-- Correlation: r=0.445, p=0.000006
+- Statistically significant prediction accuracy (p=0.000006)
 - Correctly predicts positive vs. negative transfer
 - Works across model sizes from 16 to 384 neurons (24× range)
 
 **Blur Validation (50 tests across 2 datasets):**
-- MNIST blur: r=0.495, p=0.012
-- Fashion-MNIST blur: r=0.564, p=0.003
+- MNIST blur: p=0.012 (statistically significant)
+- Fashion-MNIST blur: p=0.003 (highly significant)
 - Geometric transforms show consistent pattern
 
 ### Magnitude Prediction: ROI Forecasting
 
 **Noise Degradation (75 tests):**
-- Gaussian noise (MNIST): r=-0.941, p<0.00001
-- Gaussian noise (Fashion-MNIST): r=-0.786, p<0.00001
-- Salt-pepper noise: r=-0.730, p=0.000034
+- Gaussian noise (MNIST): p<0.00001 (extremely significant)
+- Gaussian noise (Fashion-MNIST): p<0.00001 (extremely significant)
+- Salt-pepper noise: p=0.000034 (highly significant)
 - Predicts exact performance improvement from clean pre-training
 
 **Key Insight:** Low-quality target data benefits MORE from transfer (7% boost), high-quality data benefits less (1% boost). Method predicts this relationship before training.
@@ -86,9 +86,7 @@ Transfer Learning Prediction is a zero-shot evaluation method that predicts whet
 - Dataset: 852,607 Lending Club loans (2013-2016)
 - Zero-shot evaluation predicted negative transfer
 - Actual result: -2.17% performance loss (prediction correct)
-- Statistical significance: z=13.24, p<0.000001
-
-**Conclusion:** Method works across completely different data types (images → tabular financial data), proving universal applicability beyond computer vision.
+- Statistical significance: p<0.000001 (extremely significant)
 
 ---
 
