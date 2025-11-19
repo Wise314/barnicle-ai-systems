@@ -172,7 +172,7 @@ Proves method works beyond computer vision (financial services validation)
 
 ### Why This Patent is Strong
 
-✅ **Statistical rigor:** All correlations p<0.05, most p<0.003  
+✅ **Statistical rigor:** All validations p<0.05, most p<0.003
 ✅ **Cross-domain proof:** Computer vision + financial services  
 ✅ **Real-world scale:** 852,607 transactions + 247 image scenarios  
 ✅ **Multiple use cases:** Binary + magnitude + cross-domain  
