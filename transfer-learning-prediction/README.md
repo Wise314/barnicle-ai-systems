@@ -2,6 +2,8 @@
 
 **Predict which pre-trained models will succeed—before wasting compute on fine-tuning**
 
+**Universal Algorithm: Computer Vision + Financial Services + Medical Imaging + Mobile Devices | Zero Training Required**
+
 **Status:** 🟢 **Provisional Patent Filed - Application #63/920,092 (Nov 18, 2025)**
 
 ---
