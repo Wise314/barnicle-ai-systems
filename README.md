@@ -142,7 +142,14 @@ Adaptive detection system that automatically adjusts sensitivity based on equipm
 
 ---
 
-## 🎯 Target Applications
+## 🎯 Target Companies
+
+**Industrial/Manufacturing:**
+- Predictive maintenance platforms (GE Digital, Siemens, Honeywell)
+- Electric vehicle manufacturers (Tesla, Rivian, BYD, GM, Ford)
+- Industrial equipment OEMs (SKF, Timken, NSK bearings | ABB motors)
+- Battery management systems (Panasonic, LG Energy, CATL)
+- Renewable energy operators (NextEra Energy, Vestas, Siemens Gamesa)
 
 **AI/ML Industry:**
 - Production ML monitoring platforms (Datadog, Arize, WhyLabs, Fiddler)
