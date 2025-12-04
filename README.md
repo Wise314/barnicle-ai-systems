@@ -89,7 +89,7 @@ One physics-based method predicts catastrophic failures across computational, me
 ## ⚡ Innovation #1: Task-Identity
 ### Behavioral Drift Detection That Actually Catches Failures
 
-**Status:** 🟢 **Patent Filed - Application #63/906,072 (Oct 27, 2025)**
+**Status:** 🟢 **Patent Filed - Application #63/906,072 (Oct 25, 2025)**
 
 **The Critical Gap:**
 A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitoring showed 0.583 ("moderate, looks stable"). Our method showed 0.000 (catastrophic failure).
@@ -115,7 +115,7 @@ A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitorin
 ## ⚡ Innovation #2: Identity Formation Detection
 ### Predict Training Cost in 1 Epoch
 
-**Status:** 🟢 **Patent Filed - Application #63/914,409 (Nov 10, 2025)**
+**Status:** 🟢 **Patent Filed - Application #63/914,409 (Nov 18, 2025)**
 
 **The Expensive Problem:**  
 Architecture search = test 100 candidates × 50 epochs = 5,000 training runs = weeks of compute

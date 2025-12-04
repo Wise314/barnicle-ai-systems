@@ -2,7 +2,7 @@
 
 **Predicting neural network training efficiency from early training (1-3 epochs)**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/914,409 (Nov 10, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/914,409 (Nov 18, 2025)**
 
 ---
 
