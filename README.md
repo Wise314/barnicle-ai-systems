@@ -12,7 +12,7 @@ $750M-2B patent portfolio: Universal failure prediction across 9 domains + elimi
 |---|------------|---------------|-------|--------|
 | 7 | 🧠 Neural Phase Transition Detection | 63/931,603 | Dec 5, 2025 | 🟢 Filed |
 | 6 | 🏗️ Universal Stability Engineering | 63/928,013 | Dec 1, 2025 | 🟢 Filed |
-| 5 | 🌡️ Thermodynamic Stability Prediction | — | Nov 29, 2025 | 🟢 Filed |
+| 5 | 🌡️ Thermodynamic Stability Prediction | 63/927,355 | Nov 29, 2025 | 🟢 Filed |
 | 4 | 🎚️ Adaptive Threshold Framework | 63/921,348 | Nov 20, 2025 | 🟢 Filed |
 | 3 | 🔄 Transfer Learning Prediction | 63/920,092 | Nov 18, 2025 | 🟢 Filed |
 | 2 | 📈 Identity Formation Detection | 63/914,409 | Nov 18, 2025 | 🟢 Filed |
