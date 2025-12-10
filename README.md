@@ -301,19 +301,33 @@ All seven innovations available for immediate licensing or acquisition.
 **Licensing Options:** Exclusive or non-exclusive arrangements available.
 
 **Contact:**
+- 🌐 Website: [shunyatacafe.com](https://shunyatacafe.com)
 - 📧 Email: ShawnBarnicle.ai@gmail.com
 - 📧 Email: ShawnBarnicle@proton.me
 - 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
-- 🐙 GitHub: [barnicle-ai-systems](https://github.com/Wise314/barnicle-ai-systems)
+- 🐙 GitHub: [Wise314](https://github.com/Wise314)
 
 **Response Time:** 24-48 hours for licensing inquiries
-
 
 ---
 
 ## 📝 License
 
-Individual repositories may have specific licenses. See respective folders for details.
+© 2025 Shawn Barnicle. All Rights Reserved.
+
+This repository contains documentation for patented and patent-pending inventions. The materials are provided for informational and evaluation purposes only.
+
+**NO LICENSE TO USE, IMPLEMENT, OR COMMERCIALIZE**
+
+Viewing this documentation does NOT grant any license to:
+- Use the described methods or systems
+- Implement the described inventions
+- Create derivative works
+- Commercialize any aspect of these inventions
+
+The inventions described herein are protected by filed provisional patent applications with the United States Patent and Trademark Office (USPTO). Unauthorized use may constitute patent infringement.
+
+See [LICENSE](LICENSE) for full terms.
 
 ---
 
