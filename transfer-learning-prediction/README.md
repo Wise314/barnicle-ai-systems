@@ -236,20 +236,29 @@ Full validation code, test results, and comprehensive documentation available at
 
 ---
 
-## Contact
+## 📬 Contact
 
-**Commercial inquiries:** Open for acquisition or licensing discussions
+**Shawn Barnicle** — Independent Researcher & AI Systems Inventor
 
-**Contact:**
+- 🌐 Website: [shunyatacafe.com](https://shunyatacafe.com)
 - 📧 Email: ShawnBarnicle.ai@gmail.com
 - 📧 Email: ShawnBarnicle@proton.me
 - 💼 LinkedIn: [linkedin.com/in/shawn-barnicle-811887390](https://www.linkedin.com/in/shawn-barnicle-811887390)
-- 🐙 GitHub: [barnicle-ai-systems](https://github.com/Wise314/barnicle-ai-systems)
+- 🐙 GitHub: [Wise314](https://github.com/Wise314)
 
 **Response Time:** 24-48 hours for licensing inquiries
 
 ---
 
-**Last Updated:** November 2025  
-**Patent Status:** Filed  
+## 📝 License
+
+© 2025 Shawn Barnicle. All Rights Reserved.
+
+This document describes patented and patent-pending inventions. Viewing does NOT grant any license to use, implement, or commercialize these inventions. See [LICENSE](../LICENSE) for full terms.
+
+---
+
+**Last Updated:** December 2025  
+**Patent Status:** Filed - Application #63/920,092  
 **Validation:** Complete (247 image tests + 852,607 financial records)
+
