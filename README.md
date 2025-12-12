@@ -23,6 +23,19 @@ $750M-2B patent portfolio: Universal failure prediction across 9 domains + elimi
 
 ---
 
+## 📄 Scientific Papers
+
+| Paper |
+|-------|
+| [Universal Identity Law Framework](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/thermodynamic-law-framework) |
+| [Universal Identity Law and the Black Hole Information Paradox](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/black-hole-paradox-paper) |
+
+The mathematical foundation behind the patent portfolio — resolving a 50-year physics paradox with 27 systems validated at 100% accuracy.
+
+**[shunyatacafe.com](https://shunyatacafe.com)**
+
+---
+
 ## 🚀 Portfolio Overview
 
 **✅ Zero Training Required** - Methods work without retraining models
