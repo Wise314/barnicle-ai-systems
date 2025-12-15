@@ -29,6 +29,7 @@ $750M-2B patent portfolio: Universal failure prediction across 9 domains + elimi
 |-------|-----|
 | [Universal Identity Law Framework](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/thermodynamic-law-framework) | [10.5281/zenodo.17911133](https://doi.org/10.5281/zenodo.17911133) |
 | [Universal Identity Law and the Black Hole Information Paradox](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/black-hole-paradox-paper) | [10.5281/zenodo.17911481](https://doi.org/10.5281/zenodo.17911481) |
+| [UQSD Triality Maximizer](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/triality-maximizer-paper) | [10.5281/zenodo.17944911](https://doi.org/10.5281/zenodo.17944911) |
 
 The mathematical foundation behind the patent portfolio — resolving a 50-year physics paradox with 27 systems validated at 100% accuracy.
 
@@ -379,7 +380,7 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** December 2025
+**Last Updated:** December 15, 2025
 **Patents Filed:** 8 of 8
 **Validation Status:** 100% complete across all innovations
 
