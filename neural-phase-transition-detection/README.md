@@ -4,7 +4,7 @@
 
 **3 Datasets | 22 Architectures | 95% Accuracy | One Epoch Required**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/931,603 (December 5, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/960,091 (January 14, 2026)** *(Resubmitted)*
 
 ---
 
@@ -23,6 +23,8 @@ A universal method that predicts whether any neural network architecture will fo
 Neural Phase Transition Detection is the first method proven to predict architecture viability after a single training epoch. Unlike approaches requiring full training runs to evaluate candidates, this method provides binary go/no-go decisions in minutes instead of days.
 
 **Key Innovation:** Identifies whether architectures are capable of forming coherent behavioral identity—not just how fast they'll train, but whether they'll work at all.
+
+**Full Patent Title:** Method and System for Early-Epoch Viability Assessment of Neural Network Cognitive Phase Transitions Using an Identity Deficit Threshold
 
 ---
 
@@ -84,27 +86,21 @@ Neural Phase Transition Detection is the first method proven to predict architec
 - Eliminate non-viable candidates after one epoch
 - Reduce search compute by 80-95%
 - Focus resources on architectures that can succeed
-- **Market:** $500M+ (AutoML platforms)
 
 ### Hyperparameter Optimization
 - Early termination for doomed configurations
 - Faster convergence to optimal settings
 - Massive reduction in wasted experiments
-- **Market:** $300M+ (ML platforms)
 
 ### Cloud ML Cost Reduction
 - Stop paying for training runs that will fail
 - Automatic go/no-go decisions
 - Per-experiment cost reduction
-- **Market:** $1B+ (cloud ML services)
 
 ### Research Lab Efficiency
 - Accelerate experimentation cycles
 - Free up GPU resources for viable experiments
 - Faster time-to-publication
-- **Market:** $200M+ (academic/enterprise research)
-
-**Total Addressable Market:** $2B+
 
 ---
 
@@ -132,23 +128,6 @@ Neural Phase Transition Detection is the first method proven to predict architec
 
 ---
 
-## Patent Value
-
-**Conservative Estimates:**
-
-| Stage | Value |
-|-------|-------|
-| Patent Pending | $30M - $80M |
-| Patent Granted | $50M - $150M |
-
-**By Application:**
-- Neural architecture search: $20M - $50M
-- Cloud ML optimization: $15M - $40M
-- Hyperparameter tuning: $10M - $30M
-- Research acceleration: $5M - $30M
-
----
-
 ## Technical Approach
 
 **What It Analyzes:** First-epoch training outputs from candidate architectures
@@ -162,7 +141,7 @@ Neural Phase Transition Detection is the first method proven to predict architec
 - Confidence assessment
 - Go/no-go recommendation
 
-**Patent Protection:** Provisional patent filed December 5, 2025. Full technical details available under NDA.
+**Patent Protection:** Provisional patent filed January 14, 2026. Full technical details available under NDA.
 
 ---
 
@@ -220,12 +199,12 @@ This patent answers a fundamentally different question than training speed predi
 
 ## 📝 License
 
-© 2025 Shawn Barnicle. All Rights Reserved.
+© 2025-2026 Shawn Barnicle. All Rights Reserved.
 
 This document describes patented and patent-pending inventions. Viewing does NOT grant any license to use, implement, or commercialize these inventions. See [LICENSE](../LICENSE) for full terms.
 
 ---
 
-**Last Updated:** December 2025  
-**Patent Status:** Filed - Application #63/931,603  
+**Last Updated:** January 2026  
+**Patent Status:** Filed - Application #63/960,091 (Resubmitted January 14, 2026)  
 **Validation:** Complete (22 architectures, 3 datasets, 95% accuracy)
