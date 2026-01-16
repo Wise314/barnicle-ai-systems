@@ -4,7 +4,7 @@
 
 **9 Domains | 42 Systems | 100% Accuracy | Zero Calibration Required**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/928,013 (December 1, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/960,829 (January 15, 2026)** *(Resubmitted)*
 
 ---
 
@@ -27,6 +27,8 @@ Previous methods tell you a system will fail. This method ensures it won't. Thre
 Universal Stability Engineering represents the next evolution beyond failure prediction. While our previous innovation (Thermodynamic Stability Prediction) achieved 100% accuracy predicting failures across 5 domains, this method goes further—it provides the tools to **prevent** those failures through design constraints, real-time control, and universal monitoring.
 
 **Key Innovation:** First framework that unifies design-time guarantees, operational control, and cross-domain monitoring into a single methodology validated across 9 domains.
+
+**Full Patent Title:** Method and System for Engineering System Stability Through Inverse Design, Closed-Loop Control, and Universal Multi-Domain Monitoring
 
 ---
 
@@ -170,33 +172,26 @@ This patent extends stability analysis to **four domains never before covered:**
 - Design certification with mathematical stability guarantees
 - Regulatory evidence for aerospace, nuclear, medical devices
 - Reduce testing cycles through design-time validation
-- **Market:** $20B+ (certification and compliance)
 
 ### Industrial Predictive Maintenance
 - 73-90% advance warning enables planned maintenance
 - Eliminate unplanned downtime
 - Optimize parts inventory and maintenance scheduling
-- **Market:** $12B+ (Industry 4.0)
 
 ### Power Grid Stability Control
 - Real-time stability monitoring with intervention triggers
 - Prevent cascading blackouts through early action
 - Unified monitoring across generation, transmission, distribution
-- **Market:** $15B+ (global utilities)
 
 ### Enterprise AI/ML Operations
 - Single platform monitors all production models
 - Detect silent failures across NLP, vision, audio, financial models
 - Unified alerting regardless of model type
-- **Market:** $5B+ (MLOps)
 
 ### Multi-Domain Asset Management
 - Conglomerates monitor all asset types through one interface
 - Standardized risk assessment across business units
 - Single operations center for heterogeneous infrastructure
-- **Market:** $50B+ (enterprise asset management)
-
-**Total Addressable Market:** $100B+
 
 ---
 
@@ -235,23 +230,6 @@ This patent extends stability analysis to **four domains never before covered:**
 
 ---
 
-## Patent Value
-
-**Conservative Estimates:**
-
-| Stage | Value Range |
-|-------|-------------|
-| Patent Pending | $150M - $400M |
-| Patent Granted | $250M - $900M |
-
-**By Method:**
-- Inverse Design: $50M - $150M
-- Closed-Loop Control: $50M - $150M
-- Universal Monitoring Platform: $100M - $400M
-- New Domain Extensions: $50M - $200M
-
----
-
 ## Technical Approach
 
 **What It Does:**
@@ -272,7 +250,7 @@ This patent extends stability analysis to **four domains never before covered:**
 - Advance warning with quantified intervention windows
 - Unified cross-domain dashboard
 
-**Patent Protection:** Provisional patent filed December 1, 2025 (Application #63/928,013). Full technical details available under NDA.
+**Patent Protection:** Provisional patent filed January 15, 2026 (Application #63/960,829). Full technical details available under NDA.
 
 ---
 
@@ -334,12 +312,12 @@ This patent builds on and extends our previous work:
 
 ## 📝 License
 
-© 2025 Shawn Barnicle. All Rights Reserved.
+© 2025-2026 Shawn Barnicle. All Rights Reserved.
 
 This document describes patented and patent-pending inventions. Viewing does NOT grant any license to use, implement, or commercialize these inventions. See [LICENSE](../LICENSE) for full terms.
 
 ---
 
-**Last Updated:** December 2025  
-**Patent Status:** Filed - Application #63/928,013  
+**Last Updated:** January 2026  
+**Patent Status:** Filed - Application #63/960,829 (Resubmitted January 15, 2026)  
 **Validation:** Complete (42 systems, 9 domains, 100% accuracy)
