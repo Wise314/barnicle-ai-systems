@@ -10,17 +10,34 @@ Patent portfolio: Universal failure prediction across 9 domains + reducing waste
 
 | GitHub Repo | Patent Title | Application # | Filed |
 |-------------|--------------|---------------|-------|
+| universal-stability-engineering | Method and System for Engineering System Stability Through Inverse Design, Closed-Loop Control, and Universal Multi-Domain Monitoring | 63/960,829 | Jan 15, 2026 |
+| neural-phase-transition-detection | Method and System for Early-Epoch Viability Assessment of Neural Network Cognitive Phase Transitions Using an Identity Deficit Threshold | 63/960,091 | Jan 14, 2026 |
+| thermodynamic-stability-prediction | Method and System for Universal Stability Assessment Using Thermodynamic Free Energy Analysis | 63/959,205 | Jan 13, 2026 |
+| universal-phi-ml | Method and System for Machine Learning Using Training-Free Stability Metrics as Input Features | 63/956,800 | Jan 9, 2026 |
+| phi-hybrid-allocation | Method and System for Stability-Driven Quantum-Classical Hybrid Resource Allocation | 63/956,752 | Jan 9, 2026 |
 | quantum-phi-validation | Method and System for Quantum Sensor Stability Monitoring Using Universal Thermodynamic Identity Framework | 63/952,883 | Jan 2, 2026 |
 | phi-controller | Method and System for Universal Neural Network Training Supervision Using Trajectory-Aware Stability Prediction | 63/938,279 | Dec 11, 2025 |
-| neural-phase-transition-detection | Method for Predicting Neural Network Cognitive Phase Transitions Using Identity Deficit Threshold | 63/931,603 | Dec 5, 2025 |
-| universal-stability-engineering | Method and System for Engineering System Stability Through Inverse Design, Closed-Loop Control, and Universal Multi-Domain Monitoring | 63/928,013 | Dec 1, 2025 |
-| thermodynamic-stability-prediction | Method and System for Universal Catastrophic Failure Prediction Using Thermodynamic Free Energy Analysis | 63/927,355 | Nov 29, 2025 |
 | system-degradation-framework | Adaptive Threshold System for Degradation Detection in Mechanical and Electrochemical Systems | 63/921,348 | Nov 20, 2025 |
 | identity-framework-extensions | Method and System for Predicting Neural Network Transfer Learning Performance | 63/920,092 | Nov 18, 2025 |
 | Identity-formation-detections | Method and System for Predicting Neural Network Training Efficiency from Early Behavioral Identity Formation | 63/914,409 | Nov 18, 2025 |
 | task-identity | Behavioral Drift Detection for Machine Learning Classification | 63/906,072 | Oct 27, 2025 |
+| phi-controller-quantum | Method and System for Dynamic Quantum Circuit Management Using Real-Time Stability Monitoring | — | In Development |
 
-**9 provisional patents filed**
+**11 provisional patents filed + 1 in development**
+```
+
+Also update these lines at the top and bottom of the README:
+
+**Top (under title):**
+```
+**Patents Filed:** 11 provisionals + 1 in development
+```
+
+**Bottom (Last Updated section):**
+```
+**Last Updated:** January 16, 2026  
+**Patents Filed:** 11 of 12  
+**Validation Status:** Complete across all innovations
 
 ---
 
