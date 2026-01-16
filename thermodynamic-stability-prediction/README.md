@@ -1,4 +1,4 @@
-# Thermodynamic Stability Prediction: Universal Failure Prediction
+# Method and System for Universal Stability Assessment Using Thermodynamic Free Energy Analysis
 
 **Predict catastrophic failures across ANY system type—using one universal physics-based method**
 
@@ -23,8 +23,6 @@ A universal thermodynamic framework that predicts catastrophic system failure ac
 Thermodynamic Stability Prediction is the first universal method for predicting catastrophic failure across completely different system types. Unlike domain-specific approaches requiring separate models for each application, this method uses a single physics-based framework validated on 28 real-world systems with zero false positives or negatives.
 
 **Key Innovation:** First method proven to predict failures in both human-engineered systems AND natural phenomena (earthquakes) using identical physics.
-
-**Full Patent Title:** Method and System for Universal Stability Assessment Using Thermodynamic Free Energy Analysis
 
 ---
 
