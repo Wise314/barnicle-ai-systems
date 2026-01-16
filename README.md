@@ -1,8 +1,8 @@
-# Shawn Barnicle | AI Systems Inventor
+# Shawn Barnicle | AI Independent Researcher
 
 Patent portfolio: Universal failure prediction across 9 domains + reducing wasted AI compute
 
-**Patents Filed:** 9 provisionals
+**Patents Filed:** 11 provisionals + 1 in development
 
 ---
 
@@ -24,20 +24,6 @@ Patent portfolio: Universal failure prediction across 9 domains + reducing waste
 | phi-controller-quantum | Method and System for Dynamic Quantum Circuit Management Using Real-Time Stability Monitoring | — | In Development |
 
 **11 provisional patents filed + 1 in development**
-```
-
-Also update these lines at the top and bottom of the README:
-
-**Top (under title):**
-```
-**Patents Filed:** 11 provisionals + 1 in development
-```
-
-**Bottom (Last Updated section):**
-```
-**Last Updated:** January 16, 2026  
-**Patents Filed:** 11 of 12  
-**Validation Status:** Complete across all innovations
 
 ---
 
@@ -59,11 +45,111 @@ The mathematical foundation behind the patent portfolio — 27 systems evaluated
 ## Portfolio Overview
 
 - **Zero Training Required** - Methods work without retraining models
-- **Universal Applicability** - Evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical domains
+- **Universal Applicability** - Evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical, and quantum domains
 - **Production Ready** - Deploy immediately with existing infrastructure
 - **Validated Results** - Perfect failure prediction separation in evaluated datasets
 
-**Patents Filed:** 9 provisionals | **Status:** Available for licensing
+**Patents Filed:** 11 provisionals + 1 in development | **Status:** Available for licensing
+
+---
+
+## Innovation #17: Real-Time Quantum Circuit Intervention (In Development)
+### Closed-Loop Control During Quantum Execution
+
+**Status:** In Development — Target Filing: January 2026
+
+**The Problem:**
+Current quantum execution is open-loop: select qubits, run circuit, hope for the best. If a qubit degrades mid-circuit, you don't know until final measurement. A 1000-gate circuit can fail at gate 500, wasting all computation.
+
+**Our Solution:**
+Monitor Φ continuously during execution and intervene when stability degrades. Five intervention actions: checkpoint, migrate, classical fallback, restart, or continue degraded. Closes the loop between quantum sensing and quantum control.
+
+**Portfolio Position:**
+Completes the quantum execution lifecycle — Patents #9 and #15 handle pre-execution optimization, this patent handles during-execution intervention.
+
+[Technical summary →](https://github.com/Wise314/phi-controller-quantum)
+
+---
+
+## Innovation #16: Universal Φ ML
+### Machine Learning Using Training-Free Stability Metrics
+
+**Status:** Patent Filed - Application #63/956,800 (Jan 9, 2026)
+
+**The Problem:**
+Predicting system quality typically requires extensive labeled training data and domain-specific models.
+
+**Our Solution:**
+Use the training-free Φ metric and its components (I, ρ, S) as input features to standard ML models. Enables quality prediction across backends without retraining.
+
+**Validation:**
+- 445 qubits from 3 IBM Quantum backends
+- 98.4% balanced accuracy on cross-backend transfer
+- ρ (T2/T1) identified as dominant predictor (70-78% feature importance)
+- All 4 ML model types work (Random Forest, Gradient Boosting, Neural Network, SVM)
+- 14 patent claims validated
+
+**Commercial Applications:**
+- Cross-platform quality prediction
+- Automated system monitoring
+- Transfer learning without retraining
+
+[Technical summary →](https://github.com/Wise314/universal-phi-ml)
+
+---
+
+## Innovation #15: Quantum-Classical Hybrid Resource Allocation
+### Route Computations Based on Real-Time Qubit Quality
+
+**Status:** Patent Filed - Application #63/956,752 (Jan 9, 2026)
+
+**The Problem:**
+Quantum isn't always better. A circuit run on low-Φ qubits may produce higher error than classical simulation. Current systems run everything on quantum and hope for the best.
+
+**Our Solution:**
+Use Φ to dynamically route computations between quantum hardware and classical simulation. When min_Φ ≥ 0.25, execute on quantum. When min_Φ < 0.25 and circuit is tractable, fall back to classical.
+
+**Validation:**
+- 23 tests across 7 quantum algorithms
+- 30.47x error ratio (Bernstein-Vazirani, strict methodology)
+- Classical simulation (0% error) beats low-Φ quantum execution (up to 91.60% error)
+- Validated on GHZ, QFT, Grover, Deutsch-Jozsa, Simon's, Bernstein-Vazirani, QPE
+- 3 IBM backends (ibm_fez, ibm_torino, ibm_marrakesh)
+
+**Commercial Applications:**
+- Cloud quantum platform optimization
+- Quantum computing cost reduction
+- Hybrid workflow orchestration
+
+[Technical summary →](https://github.com/Wise314/phi-hybrid-allocation)
+
+---
+
+## Innovation #9: Quantum Sensor Stability Monitoring
+### Same Formula Works on Qubits
+
+**Status:** Patent Filed - Application #63/952,883 (Jan 2, 2026)
+
+**The Problem:**
+Quantum hardware exhibits variable qubit quality. Some qubits maintain coherence; others decohere rapidly. Current calibration systems use proprietary ML requiring extensive training data.
+
+**Our Solution:**
+Apply the same Φ formula that predicted UK blackout and Tohoku earthquake to quantum hardware. Same threshold (0.25) validated on bearings, turbofans, power grids, 660 neural networks, and now 445 qubits.
+
+**Validation:**
+- 445 qubits, 1004 two-qubit gates, 3 IBM backends
+- r = 0.9458 correlation with T2/T1
+- 8-63x higher error for low-Φ qubits across all circuit depths
+- 83% error reduction using Φ-based qubit selection
+- 100% dead qubit detection (all 5 identified with Φ < 0)
+- Same threshold (0.25) works across all domains
+
+**Commercial Applications:**
+- Quantum hardware calibration
+- Qubit selection optimization
+- Cross-platform quality assessment
+
+[Technical summary →](https://github.com/Wise314/quantum-phi-validation)
 
 ---
 
@@ -98,7 +184,7 @@ Trajectory-aware termination that tracks best progress from training start, not 
 ## Innovation #7: Neural Phase Transition Detection
 ### Predict Architecture Viability in One Epoch
 
-**Status:** Patent Filed - Application #63/931,603 (Dec 5, 2025)
+**Status:** Patent Filed - Application #63/960,091 (Jan 14, 2026)
 
 **The Problem:**
 Neural architecture search wastes 80-95% of compute on architectures that will never work. Teams train hundreds of candidates for days or weeks, only to discover most were doomed from the start.
@@ -123,7 +209,7 @@ Predict whether any architecture will succeed or fail after just one training ep
 ## Innovation #6: Universal Stability Engineering
 ### Design Stable Systems, Maintain Stability, Monitor Everything
 
-**Status:** Patent Filed - Application #63/928,013 (Dec 1, 2025)
+**Status:** Patent Filed - Application #63/960,829 (Jan 15, 2026)
 
 **The Approach:**
 Previous methods predict failure. This method aims to **prevent** it. Three capabilities in one framework: design systems with stability constraints before construction, maintain stability through real-time control, and monitor any system type through a single unified platform.
@@ -154,7 +240,7 @@ Previous methods predict failure. This method aims to **prevent** it. Three capa
 ## Innovation #5: Thermodynamic Stability Prediction
 ### Universal Failure Prediction Across 5 Domains
 
-**Status:** Patent Filed - November 29, 2025
+**Status:** Patent Filed - Application #63/959,205 (Jan 13, 2026)
 
 **The Approach:**
 One physics-based method evaluated for catastrophic failure prediction across computational, mechanical, electrical, aerospace, AND geophysical systems. Same method. Same threshold.
@@ -174,87 +260,6 @@ One physics-based method evaluated for catastrophic failure prediction across co
 - AI/ML operations
 
 [Technical summary →](./thermodynamic-stability-prediction/)
-
----
-
-## Innovation #1: Task-Identity
-### Behavioral Drift Detection
-
-**Status:** Patent Filed - Application #63/906,072 (Oct 27, 2025)
-
-**The Problem:**
-A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitoring showed 0.583 ("moderate, looks stable"). Our method showed 0.000 (catastrophic failure).
-
-**Detection Gap:** 58.3 percentage points better than comparison method
-
-**Validation:**
-- 12 comprehensive tests across 5 domains
-- Computer Vision, NLP, Medical AI, Audio, Financial Services
-- 95%+ coverage of production ML workloads
-- Zero training required
-
-**Commercial Applications:**
-- Production ML monitoring
-- Autonomous vehicles
-- Medical AI
-- Content moderation
-- Voice assistants
-
-[Technical summary →](./task-identity/)
-
----
-
-## Innovation #2: Identity Formation Detection
-### Predict Training Cost in 1 Epoch
-
-**Status:** Patent Filed - Application #63/914,409 (Nov 18, 2025)
-
-**The Problem:**
-Architecture search = test 100 candidates × 50 epochs = 5,000 training runs = weeks of compute
-
-**Our Solution:**
-Predict total training requirements after 1 epoch = 100 runs instead of 5,000
-
-**Validation:**
-- Universal correlation (r = -0.78) across simple and complex datasets
-- Identical pattern on MNIST and CIFAR-10 (supports universality)
-- Works for MLPs and CNNs
-
-**Commercial Applications:**
-- Neural architecture search
-- Hyperparameter optimization
-- Transfer learning validation
-- Cloud ML services
-
-[Technical summary →](./identity-formation-detection/)
-
----
-
-## Innovation #3: Transfer Learning Prediction
-### Reduce Wasted Pre-Training Experiments
-
-**Status:** Patent Filed - Application #63/920,092 (Nov 18, 2025)
-
-**The Problem:**
-Enterprise teams test many pre-trained models with hours of fine-tuning each. Most experiments fail, wasting significant compute costs per project.
-
-**The Solution:**
-Method to predict transfer learning success across different domains. Validated on 247 computer vision tests + 852,607 financial loan records.
-
-**Validation:**
-- Binary prediction: Which models will help vs. hurt (p<0.003)
-- Magnitude prediction: Performance gain/loss correlation (r=-0.941, p<0.00001)
-- Cross-domain evaluation: Computer vision AND financial services
-- Real-world scale: 852,607 financial transactions + 247 image scenarios
-
-**Commercial Applications:**
-- Pre-trained model marketplaces
-- Medical imaging
-- Financial ML
-- Cloud ML platforms
-- Enterprise AI teams
-
-[Technical summary →](./transfer-learning-prediction/)
 
 ---
 
@@ -287,6 +292,87 @@ Adaptive detection system that automatically adjusts sensitivity based on equipm
 
 ---
 
+## Innovation #3: Transfer Learning Prediction
+### Reduce Wasted Pre-Training Experiments
+
+**Status:** Patent Filed - Application #63/920,092 (Nov 18, 2025)
+
+**The Problem:**
+Enterprise teams test many pre-trained models with hours of fine-tuning each. Most experiments fail, wasting significant compute costs per project.
+
+**The Solution:**
+Method to predict transfer learning success across different domains. Validated on 247 computer vision tests + 852,607 financial loan records.
+
+**Validation:**
+- Binary prediction: Which models will help vs. hurt (p<0.003)
+- Magnitude prediction: Performance gain/loss correlation (r=-0.941, p<0.00001)
+- Cross-domain evaluation: Computer vision AND financial services
+- Real-world scale: 852,607 financial transactions + 247 image scenarios
+
+**Commercial Applications:**
+- Pre-trained model marketplaces
+- Medical imaging
+- Financial ML
+- Cloud ML platforms
+- Enterprise AI teams
+
+[Technical summary →](./transfer-learning-prediction/)
+
+---
+
+## Innovation #2: Identity Formation Detection
+### Predict Training Cost in 1 Epoch
+
+**Status:** Patent Filed - Application #63/914,409 (Nov 18, 2025)
+
+**The Problem:**
+Architecture search = test 100 candidates × 50 epochs = 5,000 training runs = weeks of compute
+
+**Our Solution:**
+Predict total training requirements after 1 epoch = 100 runs instead of 5,000
+
+**Validation:**
+- Universal correlation (r = -0.78) across simple and complex datasets
+- Identical pattern on MNIST and CIFAR-10 (supports universality)
+- Works for MLPs and CNNs
+
+**Commercial Applications:**
+- Neural architecture search
+- Hyperparameter optimization
+- Transfer learning validation
+- Cloud ML services
+
+[Technical summary →](./identity-formation-detection/)
+
+---
+
+## Innovation #1: Task-Identity
+### Behavioral Drift Detection
+
+**Status:** Patent Filed - Application #63/906,072 (Oct 27, 2025)
+
+**The Problem:**
+A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitoring showed 0.583 ("moderate, looks stable"). Our method showed 0.000 (catastrophic failure).
+
+**Detection Gap:** 58.3 percentage points better than comparison method
+
+**Validation:**
+- 12 comprehensive tests across 5 domains
+- Computer Vision, NLP, Medical AI, Audio, Financial Services
+- 95%+ coverage of production ML workloads
+- Zero training required
+
+**Commercial Applications:**
+- Production ML monitoring
+- Autonomous vehicles
+- Medical AI
+- Content moderation
+- Voice assistants
+
+[Technical summary →](./task-identity/)
+
+---
+
 ## Target Companies
 
 **Critical Infrastructure & Safety:**
@@ -307,6 +393,11 @@ Adaptive detection system that automatically adjusts sensitivity based on equipm
 - Pre-trained model evaluation
 - Enterprise MLOps
 
+**Quantum Computing:**
+- Cloud quantum platforms (IBM, Google, IonQ, Rigetti)
+- Quantum software development kits
+- Hybrid quantum-classical systems
+
 ---
 
 ## Validation Standards
@@ -314,7 +405,7 @@ Adaptive detection system that automatically adjusts sensitivity based on equipm
 All innovations follow rigorous validation protocols:
 
 - **Real Data Only** - No synthetic data generation
-- **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans, NASA C-MAPSS, XJTU-SY Bearings, USGS Strainmeter, UK National Grid
+- **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans, NASA C-MAPSS, XJTU-SY Bearings, USGS Strainmeter, UK National Grid, IBM Quantum
 - **Statistical Rigor** - P-values, significance testing, correlation analysis
 - **Cross-Domain Testing** - Multiple domains per method to evaluate universality
 - **Historical Events** - UK blackout, 3 major earthquakes evaluated
@@ -340,7 +431,7 @@ All innovations available for licensing or acquisition.
 
 ## License
 
-© 2025 Shawn Barnicle. All Rights Reserved.
+© 2025-2026 Shawn Barnicle. All Rights Reserved.
 
 This repository contains documentation for patented and patent-pending inventions. The materials are provided for informational and evaluation purposes only.
 
@@ -358,9 +449,9 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** January 7, 2026  
-**Patents Filed:** 9 of 9  
-**Validation Status:** Complete across all innovations
+**Last Updated:** January 16, 2026  
+**Patents Filed:** 11 of 12  
+**Validation Status:** Complete across all filed innovations
 
 ---
 
