@@ -1,4 +1,4 @@
-# Neural Phase Transition Detection: Architecture Viability Prediction
+# Method and System for Early-Epoch Viability Assessment of Neural Network Cognitive Phase Transitions Using an Identity Deficit Threshold
 
 **Predict whether any neural network architecture will succeed or fail—after just one training epoch**
 
@@ -23,8 +23,6 @@ A universal method that predicts whether any neural network architecture will fo
 Neural Phase Transition Detection is the first method proven to predict architecture viability after a single training epoch. Unlike approaches requiring full training runs to evaluate candidates, this method provides binary go/no-go decisions in minutes instead of days.
 
 **Key Innovation:** Identifies whether architectures are capable of forming coherent behavioral identity—not just how fast they'll train, but whether they'll work at all.
-
-**Full Patent Title:** Method and System for Early-Epoch Viability Assessment of Neural Network Cognitive Phase Transitions Using an Identity Deficit Threshold
 
 ---
 
@@ -183,7 +181,7 @@ This patent answers a fundamentally different question than training speed predi
 
 ---
 
-# 📬 Contact
+## 📬 Contact
 
 **Shawn Barnicle** — Independent Researcher & AI Systems Inventor
 
