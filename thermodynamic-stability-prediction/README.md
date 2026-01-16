@@ -4,7 +4,7 @@
 
 **5 Domains | 28 Systems | 100% Accuracy | Zero Training Required**
 
-**Status:** 🟢 **Provisional Patent Filed - November 29, 2025**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/959,205 (January 13, 2026)** *(Resubmitted)*
 
 ---
 
@@ -23,6 +23,8 @@ A universal thermodynamic framework that predicts catastrophic system failure ac
 Thermodynamic Stability Prediction is the first universal method for predicting catastrophic failure across completely different system types. Unlike domain-specific approaches requiring separate models for each application, this method uses a single physics-based framework validated on 28 real-world systems with zero false positives or negatives.
 
 **Key Innovation:** First method proven to predict failures in both human-engineered systems AND natural phenomena (earthquakes) using identical physics.
+
+**Full Patent Title:** Method and System for Universal Stability Assessment Using Thermodynamic Free Energy Analysis
 
 ---
 
@@ -102,33 +104,26 @@ Thermodynamic Stability Prediction is the first universal method for predicting 
 - Days-ahead warning potential for M6+ events
 - Validated on 3 major earthquakes (M9.1, M6.5, M6.0)
 - Discriminates between stable and unstable seismic periods
-- **Market:** $2B+ (Japan, California, Pacific Rim)
 
 ### Power Grid Stability Monitoring
 - Real-time blackout prediction
 - Validated on actual UK blackout
 - Early warning before cascading failures
-- **Market:** $15B+ (global utilities)
 
 ### Aerospace Predictive Maintenance
 - Turbofan engine failure prediction
 - NASA-validated run-to-failure detection
 - Universal monitoring for aircraft fleets
-- **Market:** $8B+ (predictive maintenance)
 
 ### Industrial Equipment Monitoring
 - Bearing, motor, pump failure prediction
 - No per-equipment training needed
 - 100% accuracy on 10 bearing systems
-- **Market:** $12B+ (Industry 4.0)
 
 ### AI/ML Operations
 - Production model failure detection
 - Catastrophic forgetting early warning
 - Behavioral drift monitoring
-- **Market:** $5B+ (MLOps)
-
-**Total Addressable Market:** $40B+
 
 ---
 
@@ -156,24 +151,6 @@ Thermodynamic Stability Prediction is the first universal method for predicting 
 
 ---
 
-## Patent Value
-
-**Conservative Estimates:**
-
-| Stage | Value |
-|-------|-------|
-| Patent Pending | $250M - $600M |
-| Patent Granted | $400M - $900M+ |
-
-**By Application:**
-- Earthquake early warning: $100M - $200M
-- Grid blackout prediction: $50M - $100M
-- Aerospace maintenance: $30M - $50M
-- Industrial IoT: $30M - $50M
-- AI/ML monitoring: $20M - $30M
-
----
-
 ## Technical Approach
 
 **What It Analyzes:** System measurements (vibration, frequency, strain, model outputs, etc.)
@@ -187,7 +164,7 @@ Thermodynamic Stability Prediction is the first universal method for predicting 
 - Graduated severity assessment (stable → critical → imminent collapse)
 - Universal threshold applicable across all domains
 
-**Patent Protection:** Provisional patent filed November 29, 2025. Full technical details available under NDA.
+**Patent Protection:** Provisional patent filed January 13, 2026 (Application #63/959,205). Full technical details available under NDA.
 
 ---
 
@@ -220,7 +197,7 @@ Thermodynamic Stability Prediction is the first universal method for predicting 
 ## Repository
 
 Full validation code and documentation available at:  
-**https://github.com/Wise314/-thermodynamic-stability-prediction**
+**https://github.com/Wise314/thermodynamic-stability-prediction**
 
 ---
 
@@ -240,12 +217,12 @@ Full validation code and documentation available at:
 
 ## 📝 License
 
-© 2025 Shawn Barnicle. All Rights Reserved.
+© 2025-2026 Shawn Barnicle. All Rights Reserved.
 
 This document describes patented and patent-pending inventions. Viewing does NOT grant any license to use, implement, or commercialize these inventions. See [LICENSE](../LICENSE) for full terms.
 
 ---
 
-**Last Updated:** December 2025  
-**Patent Status:** Filed - November 29, 2025  
+**Last Updated:** January 2026  
+**Patent Status:** Filed - Application #63/959,205 (Resubmitted January 13, 2026)  
 **Validation:** Complete (28 systems, 5 domains, 100% accuracy)
