@@ -22,6 +22,7 @@ Patent portfolio: Universal failure prediction across 9 domains + reducing waste
 | Identity-formation-detections | Method and System for Predicting Neural Network Training Efficiency from Early Behavioral Identity Formation | 63/914,409 | Nov 18, 2025 |
 | task-identity | Behavioral Drift Detection for Machine Learning Classification | 63/906,072 | Oct 27, 2025 |
 | phi-controller-quantum | Method and System for Real-Time Quantum Circuit Intervention Using Stability Metric Monitoring | 63/973,723 | Feb 2, 2026 |
+| llm-phi-stability | Method and System for Detecting Behavioral Drift and Safety Guardrail Degradation in Generative Language Models Using a Stability Metric | 63/973,673 | Feb 2, 2026 |
 
 **12 provisional patents filed**
 
@@ -83,7 +84,41 @@ Monitor Φ continuously during execution and intervene when stability degrades. 
 
 ---
 
+---
+
+## Innovation #18: LLM Behavioral Drift Detection
+### Black-Box Safety Monitoring for Language Models
+
+**Status:** Patent Filed - Application #63/973,673 (Feb 2, 2026)
+
+**The Problem:**
+Generative language models change behavior invisibly. Fine-tuning, temperature changes, quantization, or adversarial injection can degrade quality and weaken safety guardrails. Existing approaches require supervised classifiers, privileged access to logits/hidden states, or manual review.
+
+**Our Solution:**
+Apply the same Φ formula to LLM outputs using external embeddings. Black-box operation — no access to logits, hidden states, or attention weights required. Works with any LLM API (OpenAI, Anthropic, etc.).
+
+**Validation:**
+- 8 tests + scale validation on models up to 2.7B parameters
+- Quality drift detection: ΔΦ=-0.282 (temperature 0.7→1.5)
+- Safety drift detection: ΔΦ=-0.072 (refusal rate 14%→3%)
+- Fine-tuning drift: ΔΦ=-0.254 (base vs chat model)
+- Jailbreak detection: ΔΦ=-0.207 (adversarial injection)
+- Temperature correlation: r=-0.97
+- 42 claims (7 independent)
+
+**Commercial Applications:**
+- LLM safety monitoring
+- Fine-tuning QA validation
+- Adversarial prompt detection
+- Model deployment guardrails
+- API provider quality assurance
+
+[Technical summary →](https://github.com/Wise314/llm-phi-stability)
+
+---
+
 ## Innovation #16: Universal Φ ML
+
 ### Machine Learning Using Training-Free Stability Metrics
 
 **Status:** Patent Filed - Application #63/956,800 (Jan 9, 2026)
