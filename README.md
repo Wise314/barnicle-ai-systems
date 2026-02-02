@@ -50,7 +50,7 @@ The mathematical foundation behind the patent portfolio — 27 systems evaluated
 - **Production Ready** - Deploy immediately with existing infrastructure
 - **Validated Results** - Perfect failure prediction separation in evaluated datasets
 
-**Patents Filed:** 11 provisionals + 1 in development | **Status:** Available for licensing
+12 provisionals
 
 ---
 
@@ -81,8 +81,6 @@ Monitor Φ continuously during execution and intervene when stability degrades. 
 - Cross-platform quantum control
 
 [Technical summary →](https://github.com/Wise314/phi-controller-quantum)
-
----
 
 ---
 
