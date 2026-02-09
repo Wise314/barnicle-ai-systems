@@ -1,6 +1,6 @@
 # Shawn Barnicle | AI Independent Researcher
 
-Patent portfolio: Universal failure prediction across 9 domains + reducing wasted AI compute
+Patent portfolio: Universal failure prediction across 10 domains + reducing wasted AI compute
 
 **Patents Filed:** 13 provisionals
 
@@ -47,7 +47,7 @@ The mathematical foundation behind the patent portfolio — 27 systems evaluated
 ## Portfolio Overview
 
 - **Zero Training Required** - Methods work without retraining models
-- **Universal Applicability** - Evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical, and quantum domains
+- **Universal Applicability** - Evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical, quantum, and biological domains
 - **Production Ready** - Deploy immediately with existing infrastructure
 - **Validated Results** - Perfect failure prediction separation in evaluated datasets
 
@@ -297,7 +297,7 @@ Previous methods predict failure. This method aims to **prevent** it. Three capa
 - **Universal Monitoring:** Single dashboard monitors mechanical, electrical, aerospace, AI, seismic, NLP, medical, audio, and financial systems
 
 **Validation:**
-- 42 systems across 9 domains evaluated
+- 42 systems across 10 domains evaluated
 - 10 bearings with 73-90% advance warning (avg 86.1%)
 - 11 inverse design systems evaluated
 - Historical events: Tohoku M9.1, UK Blackout, Parkfield M6.0, San Simeon M6.5
@@ -470,6 +470,13 @@ A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitorin
 - Pre-trained model evaluation
 - Enterprise MLOps
 
+**Medical/Healthcare:**
+- Cardiac monitoring device manufacturers
+- Wearable health technology companies
+- ICU monitoring system providers
+- Seizure detection device companies
+- Remote patient monitoring platforms
+
 **Quantum Computing:**
 - Cloud quantum platforms (IBM, Google, IonQ, Rigetti)
 - Quantum software development kits
@@ -482,7 +489,7 @@ A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitorin
 All innovations follow rigorous validation protocols:
 
 - **Real Data Only** - No synthetic data generation
-- **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans, NASA C-MAPSS, XJTU-SY Bearings, USGS Strainmeter, UK National Grid, IBM Quantum
+- **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans, NASA C-MAPSS, XJTU-SY Bearings, USGS Strainmeter, UK National Grid, IBM Quantum, PhysioNet MIT-BIH, PhysioNet CHB-MIT EEG
 - **Statistical Rigor** - P-values, significance testing, correlation analysis
 - **Cross-Domain Testing** - Multiple domains per method to evaluate universality
 - **Historical Events** - UK blackout, 3 major earthquakes evaluated
