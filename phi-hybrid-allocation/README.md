@@ -1,8 +1,6 @@
 # Quantum-Classical Hybrid Resource Allocation
 
-**Route computations to quantum or classical execution based on real-time qubit quality—stop wasting quantum resources on circuits destined to fail**
-
-**Universal Algorithm: Same stability metric works across all quantum platforms**
+**Route computations to quantum or classical execution based on real-time qubit quality — stop wasting quantum resources on circuits destined to fail**
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/956,752 (Jan 9, 2026)**
 
@@ -12,20 +10,20 @@
 
 **Quantum Isn't Always Better.**
 
-A circuit run on low-stability qubits can produce up to 91.60% error—worse than random guessing. Classical simulation produces 0% error for tractable circuits. This patent enables real-time routing decisions: run on quantum when it helps, fall back to classical when it doesn't.
+A circuit run on low-stability qubits can produce up to 91.60% error — worse than random guessing. Classical simulation produces 0% error for tractable circuits. This patent enables real-time routing decisions: run on quantum when it helps, fall back to classical when it doesn't.
 
 **The result?** 30x error reduction by routing away from bad qubits. Stop burning quantum credits on noise.
 
 ---
 
-## The Problem with Current Methods
+## The Problem
 
 ### How Quantum Execution Works Today
 
 **Run Everything on Quantum:**
 - Users submit circuits to quantum hardware regardless of qubit quality
 - No quality check before execution
-- Bad qubits produce noise, good qubits produce results—but users can't tell which they'll get
+- Bad qubits produce noise, good qubits produce results — but users can't tell which they'll get
 - Failed circuits still consume credits and queue time
 
 **Hope-Based Quality Assurance:**
@@ -46,23 +44,9 @@ A circuit run on low-stability qubits can produce up to 91.60% error—worse tha
 |------------------|------------|--------------|
 | Always quantum | Wastes resources on bad qubits | Route based on stability score |
 | Manual fallback | Requires user expertise | Automated routing decisions |
-| Post-execution quality check | Too late—resources already spent | Pre-execution quality prediction |
+| Post-execution quality check | Too late — resources already spent | Pre-execution quality prediction |
 | Platform-specific | Different logic per backend | Universal method across platforms |
 | Binary choice | Quantum OR classical | Hybrid execution when optimal |
-
-### Why This Matters
-
-**Without stability-based routing:**
-- Up to 91.60% of quantum results can be pure noise
-- Users pay for circuits that produce garbage
-- No way to guarantee quality of service
-- Classical simulation underutilized
-
-**With our method:**
-- Route to quantum only when stability is sufficient
-- Fall back to classical when it produces better results
-- Hybrid execution for circuits that span the boundary
-- 30x error reduction demonstrated
 
 ---
 
@@ -70,7 +54,7 @@ A circuit run on low-stability qubits can produce up to 91.60% error—worse tha
 
 This patent provides methods for dynamically allocating computations between quantum hardware and classical simulation based on real-time qubit stability assessment.
 
-**Key Innovation:** Use the same stability metric that predicts bearing failures and power grid blackouts to decide whether quantum execution will succeed—before spending resources.
+**Key Innovation:** Use the same stability metric that predicts bearing failures and power grid blackouts to decide whether quantum execution will succeed — before spending resources.
 
 ---
 
@@ -84,9 +68,9 @@ This patent provides methods for dynamically allocating computations between qua
 | Algorithms Validated | 7 |
 | IBM Backends Used | 3 |
 | Best Error Ratio | **30.47x** (Bernstein-Vazirani) |
-| All Tests Passed | ✅ YES |
+| All Tests Passed | ✅ |
 
-**NO SYNTHETIC DATA.** All results from real quantum hardware execution.
+**All results from real quantum hardware execution. No synthetic data.**
 
 ---
 
@@ -97,7 +81,7 @@ This patent provides methods for dynamically allocating computations between qua
 | Execution Mode | Error Rate |
 |----------------|------------|
 | Classical simulation | 0% (exact for tractable circuits) |
-| High-stability quantum | ~2-6% |
+| High-stability quantum | ~2–6% |
 | Low-stability quantum | Up to 91.60% |
 
 **Classical simulation outperforms low-stability quantum execution by up to 91 percentage points.**
@@ -142,6 +126,38 @@ Tested across 7 major quantum algorithms:
 
 ---
 
+## The Routing Decision
+
+**Simple logic, powerful results:**
+
+1. **Check stability** of available qubits before execution
+2. **If stability is high:** Execute on quantum hardware
+3. **If stability is low AND circuit is tractable:** Execute classically
+4. **If stability is low AND circuit is NOT tractable:** Use hybrid approach or wait for better qubits
+
+**No user expertise required.** The system makes optimal decisions automatically.
+
+---
+
+## Market Context
+
+### Quantum Computing Resource Waste
+
+As quantum computing scales from research to commercial use, resource waste is becoming a critical cost problem. Users pay per-shot on cloud quantum platforms, with no guarantee that the hardware will produce meaningful results for their specific circuit.
+
+**The unsolved problem:** No existing system automatically routes between quantum and classical execution based on real-time hardware quality. Every commercial platform runs circuits on whatever qubits are assigned — regardless of whether those qubits can actually produce useful results.
+
+### Where This Patent Fits
+
+| Market Segment | Relevance | Our Advantage |
+|----------------|-----------|---------------|
+| Cloud quantum platforms | Direct — core infrastructure | Automated quality-based routing |
+| Quantum SDKs | Integration opportunity | Drop-in routing layer |
+| Hybrid quantum-classical | Enabling technology | First principled routing method |
+| Enterprise quantum adoption | Reliability requirement | Quality guarantees before execution |
+
+---
+
 ## Benefits
 
 ### For Cloud Quantum Platforms
@@ -173,13 +189,13 @@ Tested across 7 major quantum algorithms:
 ## Commercial Applications
 
 ### Cloud Quantum Platforms
-- **IBM, Google, IonQ, Rigetti, Amazon Braket:** Integrated routing layer
+- Integrated routing layer for IBM, Google, IonQ, Rigetti, Amazon Braket
 - Automatic quality-based job scheduling
 - Premium tiers with stability guarantees
 - Classical fallback during maintenance windows
 
 ### Quantum Software Development Kits
-- **Qiskit, Cirq, PennyLane, Braket SDK:** Built-in routing decisions
+- Built-in routing decisions for Qiskit, Cirq, PennyLane, Braket SDK
 - Seamless hybrid execution
 - User-configurable quality thresholds
 - Automatic backend selection
@@ -198,48 +214,39 @@ Tested across 7 major quantum algorithms:
 
 ---
 
-## The Routing Decision
-
-**Simple logic, powerful results:**
-
-1. **Check stability** of available qubits before execution
-2. **If stability is high:** Execute on quantum hardware
-3. **If stability is low AND circuit is tractable:** Execute classically
-4. **If stability is low AND circuit is NOT tractable:** Use hybrid approach or wait for better qubits
-
-**No user expertise required.** The system makes optimal decisions automatically.
-
----
-
 ## Cross-Domain Validation
 
 This patent builds on a stability framework validated across industries:
 
-| Domain | Application | Result |
-|--------|-------------|--------|
-| Industrial | Bearing failures | 100% detection |
-| Infrastructure | Power grid stability | Predicted UK blackout |
-| Geophysical | Earthquake precursors | 100% accuracy |
-| AI/ML | Neural network training | 99.7% precision |
-| Quantum (#9) | Qubit stability | 83% error reduction |
-| **Quantum (#15)** | **Routing decisions** | **30x improvement** |
+| Domain | Application | Key Result |
+|--------|-------------|------------|
+| Industrial | Bearing failure prediction | F1 up to 0.975 |
+| Aerospace | Turbofan degradation | NASA C-MAPSS validated |
+| Infrastructure | Power grid stability | Predicted UK 2019 blackout |
+| Geophysical | Earthquake precursors | Tohoku M9.1 evaluated |
+| AI/ML | Neural network training | 660 architectures, 99.7% precision |
+| Quantum | Qubit stability scoring | 445 qubits, 83% error reduction |
+| **Quantum** | **Routing decisions (this patent)** | **30.47x error improvement** |
+| Quantum | Real-time circuit intervention | 85.1% error reduction |
+| LLM | Behavioral drift | r=-0.97, jailbreak detection |
+| Biological | Cardiac arrhythmia | AUC 0.90 |
 
 **Same physics. Same method. Extended to execution routing.**
 
 ---
 
-## Related Patents
+## Quantum Execution Lifecycle
 
-This patent works with other patents in the Universal Φ Portfolio:
+This patent is part of a complete quantum execution stack:
 
-| Patent | Application | Relationship |
-|--------|-------------|--------------|
-| #9 | Qubit stability scoring | Provides stability scores used for routing |
-| #15 (This) | Quantum-classical routing | Uses scores to make execution decisions |
-| #16 | ML with stability features | Learns optimal routing policies |
-| #17 | Real-time intervention | Extends routing to during-execution control |
+| Phase | Coverage | Status |
+|-------|----------|--------|
+| **Before Execution** | Qubit quality scoring and selection | ✅ Filed |
+| **Before Execution** | Quantum vs classical routing (this patent) | ✅ Filed |
+| **During Execution** | Real-time monitoring and intervention | ✅ Filed |
+| **After Execution** | Stability metrics as ML input features | ✅ Filed |
 
-**Complete quantum coverage requires licensing multiple patents.**
+**Licensing the full quantum stack provides end-to-end coverage of the execution lifecycle.**
 
 ---
 
@@ -297,7 +304,7 @@ This patent works with other patents in the Universal Φ Portfolio:
 **Application Number:** 63/956,752  
 **Title:** Method and System for Stability-Driven Quantum-Classical Hybrid Resource Allocation  
 **Status:** Active, 12-month window for full utility patent  
-**Claims:** 46 claims covering routing methods, systems, and computer-readable media  
+**Claims:** 46 — routing methods, systems, and computer-readable media  
 
 ---
 
@@ -330,6 +337,6 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** January 2026  
+**Last Updated:** February 2026  
 **Patent Status:** Filed  
 **Validation:** Complete (23 tests, 7 algorithms, 3 backends)
