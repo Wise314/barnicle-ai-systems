@@ -31,17 +31,16 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 
 ## Scientific Papers
 
-Published mathematical foundations behind the patent portfolio:
+### Peer-Reviewed Foundations Behind the Patent Portfolio
 
-| Paper | DOI |
-|-------|-----|
-| A Stability Index for Cross-Domain Degradation Detection | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
-| Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
+| Paper | Key Result | DOI |
+|-------|-----------|-----|
+| A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation — one formula, no tuning | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
+| Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average early warning, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
 
-Peer-reviewable mathematical proofs underlying the stability metric used across all 14 patents. PDFs available in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
+Real data. Fixed parameters. No per-domain tuning. Full methodology available for replication. PDFs and detailed summaries in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
 
-**[shunyatacafe.com](https://shunyatacafe.com)**
----
+**[shunyatacafe.com](https://shunyatacafe.com)**---
 
 ## Portfolio Overview
 
