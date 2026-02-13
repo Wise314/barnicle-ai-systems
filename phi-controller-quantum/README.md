@@ -1,4 +1,4 @@
-# Real-Time Quantum Circuit Intervention
+# Phi Controller Quantum
 
 **Closed-loop control during quantum execution — monitor qubit stability and intervene when degradation occurs mid-circuit**
 

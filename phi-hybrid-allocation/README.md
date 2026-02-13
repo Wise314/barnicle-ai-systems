@@ -1,4 +1,4 @@
-# Quantum-Classical Hybrid Resource Allocation
+# Phi Hybrid Allocation
 
 **Route computations to quantum or classical execution based on real-time qubit quality — stop wasting quantum resources on circuits destined to fail**
 

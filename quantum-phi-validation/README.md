@@ -1,4 +1,4 @@
-# Quantum Sensor Stability Monitoring
+# Quantum Phi Validation
 
 **Predict qubit quality before circuit execution — using the same method validated on bearings, power grids, and neural networks**
 

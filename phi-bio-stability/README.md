@@ -1,4 +1,4 @@
-# Physiological Instability Detection
+# Phi Bio Stability
 
 **Detect cardiac arrhythmia and predict seizures using the same universal metric validated on bearings, power grids, earthquakes, quantum computers, neural networks, and LLMs**
 

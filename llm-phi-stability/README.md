@@ -1,4 +1,4 @@
-# LLM Behavioral Drift Detection
+# LLM Phi Stability
 
 **Detect when language models silently degrade — quality drops, safety guardrails weaken, adversarial attacks succeed — using one universal metric, zero training required**
 
