@@ -1,6 +1,6 @@
-# Transfer Learning Prediction
+# Identity Framework Extensions
 
-**Predict which pre-trained models will succeed — before wasting compute on fine-tuning**
+**Transfer Learning Prediction: Predict which pre-trained models will succeed — before wasting compute on fine-tuning**
 
 **247 Image Tests | 852,607 Financial Records | Cross-Domain Validated | Zero Training Required**
 
