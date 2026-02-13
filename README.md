@@ -393,7 +393,7 @@ Method to predict transfer learning success across different domains. Validated 
 - Cloud ML platforms
 - Enterprise AI teams
 
-[Technical summary →](./transfer-learning-prediction/)
+[Technical summary →](./identity-framework-extensions/)
 
 ---
 
