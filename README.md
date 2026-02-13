@@ -31,17 +31,16 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 
 ## Scientific Papers
 
+Published mathematical foundations behind the patent portfolio:
+
 | Paper | DOI |
 |-------|-----|
-| [Universal Identity Law Framework](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/thermodynamic-law-framework) | [10.5281/zenodo.17911133](https://doi.org/10.5281/zenodo.17911133) |
-| [Universal Identity Law and the Black Hole Information Paradox](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/black-hole-paradox-paper) | [10.5281/zenodo.17911481](https://doi.org/10.5281/zenodo.17911481) |
-| [UQSD Triality Maximizer](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/triality-maximizer-paper) | [10.5281/zenodo.17944911](https://doi.org/10.5281/zenodo.17944911) |
-| [Locally Extractable Energy in Quantum Measurement](https://github.com/Wise314/black-hole-information-paradox-resolution/tree/main/locally-extractable-energy-paper) | [10.5281/zenodo.18099211](https://doi.org/10.5281/zenodo.18099211) |
+| A Stability Index for Cross-Domain Degradation Detection | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
+| Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
 
-The mathematical foundation behind the patent portfolio — 27 systems evaluated with perfect separation in the dataset.
+Peer-reviewable mathematical proofs underlying the stability metric used across all 14 patents. PDFs available in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
 
 **[shunyatacafe.com](https://shunyatacafe.com)**
-
 ---
 
 ## Portfolio Overview
