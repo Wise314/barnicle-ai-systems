@@ -365,7 +365,7 @@ Adaptive detection system that automatically adjusts sensitivity based on equipm
 - Renewable energy system monitoring
 - Manufacturing equipment health monitoring
 
-[Technical summary →](./adaptive-threshold-framework/)
+[Technical summary →](./system-degradation-framework/)
 
 ---
 

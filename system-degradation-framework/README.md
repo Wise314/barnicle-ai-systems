@@ -1,6 +1,6 @@
-# Adaptive Threshold Framework: Predictive Maintenance Revolution
+# System Degradation Framework
 
-**Predict equipment failures before they happen—without training data or complex ML models**
+**Adaptive Threshold Framework: Predict equipment failures before they happen — without training data or complex ML models**
 
 **Universal Algorithm: Bearings | Batteries | Motors | Pumps | Zero Training Required**
 
