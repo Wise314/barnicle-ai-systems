@@ -254,7 +254,7 @@ Trajectory-aware termination that tracks best progress from training start, not 
 - Hyperparameter optimization
 - Enterprise ML training pipelines
 
-[Technical summary →](./trajectory-aware-architecture-termination/)
+[Technical summary →](./phi-controller/)
 
 ---
 
