@@ -1,6 +1,6 @@
-# Trajectory-Aware Architecture Termination
+# Phi Controller
 
-**Kill unviable neural network architectures early with 99.7% precision — before wasting compute on training runs that will never succeed**
+**Trajectory-Aware Architecture Termination: Kill unviable neural network architectures early with 99.7% precision — before wasting compute on training runs that will never succeed**
 
 **660 Architectures | 2 False Kills | 99.7% Precision | Works Across 2, 10, and 100 Classes**
 
