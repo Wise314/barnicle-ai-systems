@@ -4,7 +4,7 @@
 
 **Universal Algorithm: Bearings | Batteries | Motors | Pumps | Zero Training Required**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #[pending] (Nov 20, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/921,348 (Nov 20, 2025)**
 
 ---
 
@@ -12,214 +12,227 @@
 
 **Real-Time Detection. Zero Training Data. Runs on Microcontrollers.**
 
-Industrial facilities waste billions on unnecessary maintenance while missing critical failures. Fixed thresholds generate 60% false alarms and miss 40% of actual failures. Our method: adaptive sensitivity that automatically adjusts to equipment degradation patterns—achieving 100% failure recall with 90%+ precision.
+Industrial facilities waste billions annually on unnecessary maintenance while missing critical failures. Fixed thresholds generate excessive false alarms and miss actual failures. Our method: adaptive sensitivity that automatically adjusts to equipment degradation patterns—achieving 100% failure recall with 90%+ precision.
 
-**The result?** Catch every failure while eliminating $12M+ in unnecessary maintenance per facility.
+**The result?** Catch every failure while dramatically reducing unnecessary maintenance across entire facilities.
+
+---
+
+## The Problem
+
+### How Equipment Monitoring Works Today
+
+**Fixed Thresholds:**
+- Set a vibration limit (e.g., 2× baseline) and alert when exceeded
+- Transient spikes trigger false alarms on healthy equipment
+- Slow degradation stays below threshold until sudden failure
+- Result: Too many false alarms AND missed failures simultaneously
+
+**Machine Learning Models:**
+- Require thousands of labeled failure examples to train
+- New equipment has zero failure history
+- Models are domain-specific — a bearing model doesn't work on batteries
+- Expensive to develop, maintain, and retrain
+
+**Manual Inspection:**
+- Relies on technician experience and judgment
+- Inconsistent across shifts and facilities
+- Doesn't scale to thousands of monitored assets
+- Can't provide continuous real-time monitoring
+
+### The Gap This Patent Fills
+
+| Current Approach | Limitation | Our Solution |
+|------------------|------------|--------------|
+| Fixed thresholds | High false alarms + missed failures | Adaptive sensitivity adjusts in real-time |
+| ML models | Need training data, domain-specific | Zero training, cross-domain validated |
+| Manual inspection | Doesn't scale, inconsistent | Automated, continuous, embedded |
+| Vendor-specific platforms | Locked to one equipment type | Same algorithm works on any physical system |
 
 ---
 
 ## Overview
 
-Adaptive Threshold Framework is a real-time degradation detection method that automatically adjusts monitoring sensitivity based on equipment behavior. Unlike fixed thresholds or ML models requiring training data, this method adapts in real-time using only current sensor measurements.
+The Adaptive Threshold Framework is a real-time degradation detection method that automatically adjusts monitoring sensitivity based on equipment behavior. Unlike fixed thresholds or ML models requiring training data, this method adapts in real-time using only current sensor measurements.
 
-**Key Innovation:** First method proven to detect degradation across completely different physical systems (mechanical + electrochemical) using the same algorithm.
+**Key Innovation:** First method proven to detect degradation across completely different physical systems (mechanical + electrochemical) using the same algorithm—with no training data and small enough to run on a microcontroller.
 
 ---
 
 ## Validation Results
 
 **Comprehensive Cross-Domain Testing:**
-- ✅ 10 mechanical bearing systems (XJTU-SY dataset - 5,692 measurement files)
-- ✅ 3 electrochemical battery systems (NASA dataset - discharge cycle monitoring)
-- ✅ F1 scores: 0.550-0.975 across all validated systems
-- ✅ 100% failure recall on battery systems (catches every failure)
-- ✅ 90%+ precision (minimal false positives)
-- ✅ Cross-domain proof: Same algorithm works on bearings AND batteries
 
-**Coverage:** Industrial bearings, electric vehicle batteries, motors, pumps
+| Domain | Systems Tested | Dataset | F1 Scores | Failure Recall | Status |
+|--------|---------------|---------|-----------|----------------|--------|
+| Mechanical (Bearings) | 10 systems | XJTU-SY (5,692 files) | 0.550–0.975 | Validated | ✅ |
+| Electrochemical (Batteries) | 3 systems | NASA Battery | 0.949–0.975 | 100% | ✅ |
 
-**Datasets Used (All Real, Published):**
-- XJTU-SY Bearing Dataset (vibration measurements)
-- NASA Battery Dataset (capacity degradation)
+**13 total systems validated. All real data. No synthetic generation.**
 
 ---
 
 ## Key Findings
 
-### The $50M Problem Per Facility
+### Mechanical Systems: Bearing Validation
 
-**Typical Manufacturing Plant:**
-- Replaces 1,000 bearings annually
-- 60% are false alarms (healthy equipment replaced) = $12M wasted
-- 5% are missed failures (unexpected downtime) = $35M lost production
-- Fixed 2× vibration threshold can't distinguish noise from degradation
-- Cost: $47M total losses per facility annually
+- 10 bearing systems tested across varying operating conditions and load levels
+- F1 scores range from 0.550 to 0.920
+- Detects both gradual wear and rapid catastrophic failures
+- 7 systems rescued from detection failure (F1 improved from near-zero to passing)
+- Runs on embedded hardware — less than 1KB memory required
 
-**Our Solution:**
-- Adaptive sensitivity adjusts to degradation speed
-- 100% recall (catches every failure)
-- 90%+ precision (minimal false alarms)
-- **$47M annual savings** per facility
+**Key Insight:** Systems experiencing rapid degradation require different sensitivity than slow degradation. The method automatically adapts without manual tuning.
 
-### Mechanical Systems Performance
+### Electrochemical Systems: Battery Validation
 
-**Bearing Validation (10 systems tested):**
-- F1 scores: 0.550-0.920 across varying degradation patterns
-- Detects gradual wear and rapid failures equally well
-- Works across different operating conditions and load levels
-- Runs on embedded systems (<1KB memory)
-
-**Key Insight:** Systems experiencing rapid degradation require different sensitivity than slow degradation. Method automatically adapts without manual tuning.
-
-### Electrochemical Systems Performance
-
-**Battery Validation (3 systems tested):**
-- F1 scores: 0.949-0.975 (near-perfect detection)
-- 100% recall (catches every degradation event)
-- 90%+ precision (minimal false positives)
+- 3 NASA battery systems tested with near-perfect results
+- F1 scores: 0.949–0.975
+- 100% failure recall — catches every degradation event
+- 90%+ precision — minimal false positives
 - Predicts capacity fade before critical threshold
 
-**Key Insight:** Battery degradation patterns differ fundamentally from mechanical wear, yet same algorithm achieves exceptional performance on both.
+**Key Insight:** Battery degradation physics differ fundamentally from mechanical wear, yet the same algorithm achieves exceptional performance on both.
 
 ### Cross-Domain Universality
 
-**Mechanical vs. Electrochemical:**
-- Bearings: Vibration-based degradation (high-frequency sampling)
-- Batteries: Capacity-based degradation (per-cycle sampling)
-- Same core algorithm works on both despite different physics
+This is the core patent claim: **one algorithm works across different physics.**
+
+- Bearings degrade through vibration-based mechanical wear (high-frequency sampling)
+- Batteries degrade through electrochemical capacity fade (per-cycle sampling)
 - No domain-specific feature engineering required
+- Only a single tuning parameter (α) changes between domains
+
+---
+
+## Market Context
+
+### Predictive Maintenance Market
+
+The global predictive maintenance market is projected to reach $28.2B by 2026 (MarketsandMarkets). Current solutions are fragmented — different vendors for different equipment types, each requiring domain expertise and training data.
+
+**The unsolved problem:** No existing solution offers cross-domain degradation detection from a single algorithm with zero training data. Every competitor requires either labeled failure examples or equipment-specific models.
+
+### Where This Patent Fits
+
+| Market Segment | Annual Spend | Our Advantage |
+|----------------|-------------|---------------|
+| Industrial bearing monitoring | $4.2B | Same algorithm, no training data |
+| Battery management systems | $12.6B | Cross-domain from bearings to batteries |
+| Manufacturing equipment health | $8.1B | Embedded deployment, <1KB memory |
+| Renewable energy monitoring | $3.8B | Works on new equipment immediately |
+
+**The cross-domain proof is the moat.** Competitors solve one domain at a time. This patent covers the universal approach.
+
+---
+
+## Benefits
+
+### For Predictive Maintenance Platforms
+- **Single algorithm:** Replace domain-specific models across equipment types
+- **Zero cold start:** Works on new equipment with no failure history
+- **Embedded deployment:** Runs on microcontrollers, no cloud required
+- **Reduced development cost:** One codebase instead of per-domain solutions
+
+### For Electric Vehicle Manufacturers
+- **Battery health monitoring:** Predict capacity fade before warranty claims
+- **Real-time adaptation:** Sensitivity adjusts to individual battery behavior
+- **Fleet-wide deployment:** Same algorithm across all vehicle models
+- **No training data needed:** Works from day one of production
+
+### For Industrial Equipment OEMs
+- **Value-add monitoring:** Embed in products as a differentiator
+- **Cross-equipment coverage:** Motors, pumps, compressors, bearings — one algorithm
+- **Low compute cost:** Basic arithmetic only, no GPU required
+- **Maintenance-as-a-service:** Enable predictive maintenance business models
+
+### For Renewable Energy Operators
+- **Wind turbine monitoring:** Bearing and gearbox degradation detection
+- **Solar inverter health:** Capacity degradation tracking
+- **Remote deployment:** Embedded operation means no connectivity required
+- **New installation ready:** Zero training data means immediate monitoring
 
 ---
 
 ## Commercial Applications
 
 ### Industrial Predictive Maintenance
-- **GE Digital, Siemens, Honeywell:** Deploy on existing sensor infrastructure
-- Bearings, motors, pumps, compressors
-- Eliminate $12M+ in unnecessary maintenance per facility
+- Bearing, motor, pump, and compressor monitoring
+- Manufacturing equipment health management
+- Facility-wide degradation detection from a single platform
 
-### Electric Vehicle Battery Management
-- **Tesla, Rivian, BYD, GM, Ford:** Real-time battery health monitoring
-- Predict capacity fade before warranty issues
-- Optimize charging strategies based on degradation patterns
+### Electric Vehicle & Energy Storage
+- Battery management system integration
+- Capacity fade prediction and warranty management
+- Charging strategy optimization based on degradation state
 
-### Renewable Energy Systems
-- **NextEra Energy, Vestas, Siemens Gamesa:** Wind turbine bearing monitoring
-- Solar inverter degradation detection
-- Maximize uptime in critical infrastructure
+### Renewable Energy
+- Wind turbine drivetrain monitoring
+- Solar system degradation tracking
+- Remote asset health management
 
-### Manufacturing Equipment
-- **SKF, Timken, NSK (bearings), ABB (motors):** OEM-embedded monitoring
-- Predictive maintenance as a service
-- Equipment health scoring for fleet management
-
----
-
-## The Hidden Failure Story
-
-**Real Example:**
-A manufacturing facility using fixed 2× RMS vibration threshold for bearing monitoring:
-
-- False alarm rate: 60% (replaced 600 healthy bearings = $12M wasted)
-- Missed failures: 50 bearings failed unexpectedly = $35M production loss
-- Total cost: $47M annually in preventable losses
-- Root cause: Fixed threshold can't distinguish transient spikes from sustained degradation
-
-**With Our Method:**
-Adaptive sensitivity distinguishes temporary operational anomalies from sustained degradation—catching 100% of failures while reducing false alarms by 90%.
-
----
-
-## Market Opportunity
-
-**Target Customers:**
-- Predictive maintenance platforms (GE Digital, Siemens, Honeywell)
-- Electric vehicle manufacturers (Tesla, Rivian, BYD, GM, Ford)
-- Industrial equipment OEMs (SKF, Timken, NSK bearings | ABB motors)
-- Battery management systems (Panasonic, LG Energy, CATL)
-- Renewable energy operators (NextEra Energy, Vestas, Siemens Gamesa)
-
-**Value Proposition:**
-- 100% failure recall (catches every degradation event)
-- 90%+ precision (minimal false positives)
-- Zero training data required (works immediately)
-- Cross-domain validated (mechanical + electrochemical proof)
-- Embedded deployment (<1KB memory, no GPU required)
+### OEM Equipment Integration
+- Embedded monitoring in new equipment
+- Predictive maintenance as a service offering
+- Fleet health scoring and management dashboards
 
 ---
 
 ## Patent Strength
 
-### Three Complementary Validations
+### What Makes This Patent Valuable
 
-**Validation 1: Mechanical Systems**
-10 bearing systems from XJTU-SY dataset achieving F1 scores 0.550-0.920
-- Market value: $12-20M
+✅ **Cross-domain proof:** Mechanical + electrochemical validation with same algorithm  
+✅ **Real-world scale:** 5,692 bearing measurement files + NASA battery cycle data  
+✅ **Exceptional performance:** F1 scores up to 0.975, 100% failure recall on batteries  
+✅ **Production ready:** <1KB memory, runs on embedded microcontrollers  
+✅ **Zero training:** Works immediately on new equipment with no failure history  
+✅ **7 rescue demonstrations:** Systems that failed with standard methods now pass  
 
-**Validation 2: Electrochemical Systems**
-3 battery systems from NASA dataset achieving F1 scores 0.949-0.975
-- Market value: $12-20M
+### Competitive Moat
 
-**Validation 3: Cross-Domain Universality**
-Same algorithm works across different physics (vibration + capacity)
-- Market value: +$8-12M
-
-**Total Patent Value: $20-25M**
-
-### Why This Patent is Strong
-
-✅ **Cross-domain proof:** Mechanical + electrochemical validation  
-✅ **Real-world scale:** 5,692 bearing files + battery cycle data  
-✅ **Exceptional performance:** F1 scores up to 0.975, 100% recall  
-✅ **Production ready:** <1KB memory, embedded deployment  
-✅ **Zero training:** Works immediately without historical data  
+- **Cross-domain universality:** No competitor has proven one algorithm across different physics
+- **Training-free operation:** Eliminates the cold-start problem that plagues ML approaches
+- **Embedded-ready:** Computational simplicity means deployment anywhere
+- **Foundation patent:** Extensible to additional physical domains (aerospace, HVAC, etc.)
 
 ---
 
-## Technical Approach
+## Target Customers
 
-**What It Monitors:** Real-time sensor measurements (vibration, capacity, temperature, etc.)
+**Predictive Maintenance Platforms:**
+- GE Digital, Siemens, Honeywell, PTC, Uptake
 
-**Training Required:** None - adapts in real-time to observed degradation patterns
+**Electric Vehicle Manufacturers:**
+- Tesla, Rivian, BYD, GM, Ford, Volkswagen
 
-**Computational Cost:** Extremely lightweight (<1KB memory, basic arithmetic only)
+**Industrial Equipment OEMs:**
+- SKF, Timken, NSK (bearings), ABB (motors), Grundfos (pumps)
 
-**Output:** 
-- Binary: Is equipment degrading? (yes/no)
-- Adaptive threshold: Automatically adjusted sensitivity
-- Alert generation: 3-consecutive breach rule eliminates false positives
+**Battery Management Systems:**
+- Panasonic, LG Energy Solution, CATL, Samsung SDI
 
----
-
-## Why This Matters
-
-Traditional degradation monitoring requires:
-- Fixed thresholds that work poorly across varying equipment (60% false alarm rate)
-- Machine learning models requiring thousands of failure examples (unavailable for new equipment)
-- Complex statistical analysis requiring significant computational resources
-
-**The Problem:** No way to detect degradation without either excessive false alarms or missed failures.
-
-**Our Solution:** Adaptive sensitivity automatically adjusts to equipment behavior in real-time—achieving 100% recall with 90%+ precision, using only basic sensor measurements and simple arithmetic.
+**Renewable Energy Operators:**
+- NextEra Energy, Vestas, Siemens Gamesa, Ørsted
 
 ---
 
 ## Validation Standards
 
-✅ **Real datasets only** - No synthetic data  
-✅ **5,692 bearing measurements + battery cycle data** - Massive validation scale  
-✅ **Cross-domain proof** - Mechanical + electrochemical systems  
-✅ **Published datasets** - XJTU-SY, NASA  
-✅ **Honest reporting** - All results documented  
-✅ **Reproducible** - Complete validation code available  
+✅ **Real datasets only** — No synthetic data generation  
+✅ **Published datasets** — XJTU-SY Bearings, NASA Battery  
+✅ **5,692 measurement files** — Massive validation scale  
+✅ **Cross-domain proof** — Mechanical + electrochemical systems  
+✅ **Reproducible** — All validation code available  
+✅ **Honest reporting** — Failed systems (5/15 bearings) documented transparently  
 
 ---
 
 ## Patent Status
 
 **Provisional Patent Filed:** November 20, 2025  
-**Application Number:** [pending]  
-**Title:** "Adaptive Threshold System for Degradation Detection in Mechanical and Electrochemical Systems"  
+**Application Number:** 63/921,348  
+**Title:** Adaptive Threshold System for Degradation Detection in Mechanical and Electrochemical Systems  
 **Status:** Active, 12-month window for full utility patent  
 **Claims:** Cross-domain degradation detection, adaptive sensitivity, real-time embedded deployment  
 
@@ -227,7 +240,7 @@ Traditional degradation monitoring requires:
 
 ## Repository
 
-Full validation code, test results, and comprehensive documentation available at:  
+Full validation code and results available at:  
 **https://github.com/Wise314/system-degradation-framework**
 
 ---
@@ -248,12 +261,12 @@ Full validation code, test results, and comprehensive documentation available at
 
 ## 📝 License
 
-© 2025 Shawn Barnicle. All Rights Reserved.
+© 2025-2026 Shawn Barnicle. All Rights Reserved.
 
 This document describes patented and patent-pending inventions. Viewing does NOT grant any license to use, implement, or commercialize these inventions. See [LICENSE](../LICENSE) for full terms.
 
 ---
 
-**Last Updated:** December 2025  
+**Last Updated:** February 2026  
 **Patent Status:** Filed  
-**Validation:** Complete (10 bearings + 3 batteries)
+**Validation:** Complete (10 bearings + 3 batteries, 13 systems total)
