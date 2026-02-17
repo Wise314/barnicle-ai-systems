@@ -2,7 +2,7 @@
 
 Patent portfolio: Universal failure prediction across 10 domains + reducing wasted AI compute
 
-**Patents Filed:** 14 provisionals
+**Patents Filed:** 15 provisionals
 
 ---
 
@@ -24,8 +24,9 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 | phi-controller-quantum | Method and System for Real-Time Quantum Circuit Intervention Using Stability Metric Monitoring | 63/973,723 | Feb 2, 2026 |
 | llm-phi-stability | Method and System for Detecting Behavioral Drift and Safety Guardrail Degradation in Generative Language Models Using a Stability Metric | 63/973,673 | Feb 2, 2026 |
 | phi-bio-stability | Method and System for Real-Time Physiological Instability Detection Using Stability Metric Monitoring | 63/978,132 | Feb 9, 2026 |
+| phi-objective-controller | Method and System for Stability-Guided Control Using Predictive Action Selection with Interchangeable Measurement Adapters | 63/984,704 | Feb 17, 2026 |
 
-**14 provisional patents filed**
+**15 provisional patents filed**
 
 ---
 
@@ -49,7 +50,44 @@ Real data. Fixed parameters. No per-domain tuning. Full methodology available fo
 - **Production Ready** - Deploy immediately with existing infrastructure
 - **Validated Results** - Perfect failure prediction separation in evaluated datasets
 
-14 provisionals
+15 provisionals
+
+---
+
+## Φ-Objective Controller
+### Universal Stability-Guided Control Engine
+
+**Status:** Patent Filed - Application #63/984,704 (Feb 17, 2026)
+
+**The Problem:**
+All prior patents in this portfolio DETECT instability. But detection alone isn't enough. Once you know Φ is dropping, what do you DO about it? No universal method exists to read Φ telemetry from any domain adapter and select corrective actions with safety guarantees.
+
+**Our Solution:**
+A domain-agnostic controller that reads Φ from any adapter, uses a surrogate model to predict action effects, and selects the best action subject to safety constraints. Anti-proxy rejection prevents Goodhart's Law (rejecting actions where Φ improves but task performance degrades). Stage-matched baselines prevent premature intervention.
+
+**Validation:**
+- Phase 1 kill-only: matched baseline 20/20 seeds, 0 false kills
+- Early stopping comparison: 35% catastrophic failure rate (7/20 seeds)
+- Phase 2D active control: +0.06% mean improvement, 60% win rate (12/20)
+- Surrogate prediction error 58% lower than naive baseline
+- Safety gates: late-epoch gate + budget cap (2 interventions/run)
+- 68 claims
+
+**Five Key Differentiators:**
+- Interchangeable measurement adapters (one engine, any domain)
+- Performance-first with Φ as guardrail (not optimization target)
+- Explicit anti-proxy rejection rule (Φ↑ + perf↓ = reject)
+- Stage-matched baseline constraints
+- Surrogate deployment gates (3 gates required before acting)
+
+**Commercial Applications:**
+- Universal controller for all Φ-monitored systems
+- Neural architecture search with safe interventions
+- Quantum circuit control
+- Industrial closed-loop maintenance
+- Three-tollbooth licensing (Layer 3 on top of compute + ML layers)
+
+[Technical summary →](https://github.com/Wise314/phi-objective-controller)
 
 ---
 
@@ -531,8 +569,8 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** February 13, 2026  
-**Patents Filed:** 14 of 14  
+**Last Updated:** February 17, 2026  
+**Patents Filed:** 15 of 15
 **Validation Status:** Complete across all filed innovations
 
 ---
