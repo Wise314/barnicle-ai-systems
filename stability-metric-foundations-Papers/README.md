@@ -38,11 +38,27 @@ The quantum early warning paper. Demonstrates that the stability metric serves a
 
 ---
 
+### Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller
+
+**DOI:** [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) | February 2026
+
+The comprehensive framework paper. Unifies all prior validation into a single fixed-form metric evaluated across eight domains, and introduces the Φ-Objective Controller — an autonomous control engine that uses Φ as a safety constraint (not an optimization target) with three anti-Goodhart safeguards to prevent proxy gaming.
+
+**Key results:**
+- 8 domains validated: mechanical, aerospace, electrical, geophysical, neural, quantum, cardiac, LLM
+- 42 systems across 9 domains, 100% classification accuracy
+- Controller Phase 2E: 65% win rate (13/20 seeds), no catastrophic regressions
+- Kill-only monitoring: 99.7% precision across 660+ architectures
+- Anti-Goodhart safeguards: performance floor, step-wise rejection, correlation monitor
+- 15 provisional patents unified under one framework
+
+---
+
 ## Why These Papers Matter
 
 These are not theoretical proposals. They document empirical results on real hardware and real catastrophic events using published datasets. The methodology is fully described, the parameters were fixed before cross-domain testing, and the code is available for replication.
 
-Together, they establish the scientific foundation for all 14 patents in the portfolio.
+Together, they establish the scientific foundation for all 15 patents in the portfolio.
 
 ---
 
