@@ -38,6 +38,7 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 |-------|-----------|-----|
 | A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation — one formula, no tuning | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average early warning, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
+| Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | 8 domains, 42 systems, 100% accuracy, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
 
 Real data. Fixed parameters. No per-domain tuning. Full methodology available for replication. PDFs and detailed summaries in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
 
@@ -100,7 +101,7 @@ A domain-agnostic controller that reads Φ from any adapter, uses a surrogate mo
 Medical monitoring uses domain-specific algorithms for each condition. Cardiac monitors use HRV metrics. EEG systems use spectral analysis. No universal method exists to detect physiological instability across organ systems with one formula.
 
 **Our Solution:**
-Apply the same Φ formula that predicted bearing failure, power grid blackouts, and quantum qubit decoherence to biological signals. Cardiac arrhythmia detection achieves AUC 0.90. EEG seizure prediction improved with K-of-N event detection (67% sensitivity, 0.74 FA/hr) and α=0.55 optimization for neural signals.
+Apply the same Φ formula validated on bearings, power grids, and quantum qubits to biological signals. Cardiac arrhythmia detection achieves AUC 0.90. EEG seizure prediction improved with K-of-N event detection (67% sensitivity, 0.74 FA/hr) and α=0.55 optimization for neural signals.
 
 **Validation:**
 - 8 tests across 3 PhysioNet datasets (MIT-BIH Arrhythmia, MIT-BIH AFib, CHB-MIT EEG)
@@ -247,7 +248,7 @@ Use Φ to dynamically route computations between quantum hardware and classical 
 Quantum hardware exhibits variable qubit quality. Some qubits maintain coherence; others decohere rapidly. Current calibration systems use proprietary ML requiring extensive training data.
 
 **Our Solution:**
-Apply the same Φ formula that predicted UK blackout and Tohoku earthquake to quantum hardware. Same threshold (0.25) validated on bearings, turbofans, power grids, 660 neural networks, and now 445 qubits.
+Apply the same Φ formula validated on bearings, turbofans, and power grids to quantum hardware. Same threshold (0.25) validated on bearings, turbofans, power grids, 660 neural networks, and now 445 qubits.
 
 **Validation:**
 - 445 qubits, 1004 two-qubit gates, 3 IBM backends
@@ -569,7 +570,7 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** February 17, 2026  
+**Last Updated:** February 19, 2026  
 **Patents Filed:** 15 of 15
 **Validation Status:** Complete across all filed innovations
 
