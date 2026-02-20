@@ -2,7 +2,7 @@
 
 **Detect when AI models silently fail — catching catastrophic changes that billion-dollar monitoring platforms completely miss**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/906,072 (Oct 27, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/981,437 (Feb 12, 2026)**
 
 ---
 
@@ -260,8 +260,8 @@ This patent is part of a broader framework validated across multiple industries:
 
 ## Patent Status
 
-**Provisional Patent Filed:** October 27, 2025  
-**Application Number:** 63/906,072  
+**Provisional Patent Filed:** February 12, 2026  
+**Application Number:** 63/981,437  
 **Title:** Behavioral Drift Detection for Machine Learning Classification  
 **Status:** Active, 12-month window for full utility patent  
 **Claims:** Universal behavioral drift detection, per-class analysis, cross-domain applicability  
