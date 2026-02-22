@@ -33,7 +33,7 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 
 ## Scientific Papers
 
-### Peer-Reviewed Foundations Behind the Patent Portfolio
+### Published Research Behind the Patent Portfolio
 
 | Paper | Key Result | DOI |
 |-------|-----------|-----|
