@@ -1,8 +1,8 @@
 # Shawn Barnicle | AI Independent Researcher
 
-Patent portfolio: Universal failure prediction across 10 domains + reducing wasted AI compute
+Patent portfolio: cross-domain stability monitoring, training-free failure prediction, and autonomous control across mechanical, electrical, aerospace, geophysical, computational, quantum, biological, and large language model systems.
 
-**Patents Filed:** 15 provisionals
+**Patents Filed:** 16 provisionals
 
 ---
 
@@ -26,8 +26,8 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 | llm-phi-stability | Method and System for Detecting Behavioral Drift and Safety Guardrail Degradation in Generative Language Models Using a Stability Metric | 63/973,673 | Feb 2, 2026 |
 | phi-bio-stability | Method and System for Real-Time Physiological Instability Detection Using Stability Metric Monitoring | 63/978,132 | Feb 9, 2026 |
 | phi-objective-controller | Method and System for Stability-Guided Control Using Predictive Action Selection with Interchangeable Measurement Adapters | 63/984,704 | Feb 17, 2026 |
-
-**15 provisional patents filed**
+| cot-phi-stability | Method and System for Detecting Reasoning Drift and False Coherence in Chain-of-Thought Outputs of Large Language Models Using a Stability Metric | 64/038,659 | Apr 14, 2026 |
+**16 provisional patents filed**
 
 ---
 
@@ -37,32 +37,35 @@ Patent portfolio: Universal failure prediction across 10 domains + reducing wast
 
 | Paper | Key Result | DOI |
 |-------|-----------|-----|
-| A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation — one formula, no tuning | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
-| Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average early warning, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
-| Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | 8 domains, 42 systems, 100% accuracy, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
+| A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation under one fixed protocol | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
+| Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average lead time, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
+| Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | 8 domains, 42 systems, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
+| A Cross-Domain Stability Metric for Cardiac Arrhythmia Detection and Physiological Instability Monitoring | Cardiac AUC 0.9148 on MIT-BIH, exploratory EEG with documented bounds | (arXiv/Zenodo submission pending) |
 
-Real data. Fixed parameters. No per-domain tuning. Full methodology available for replication. PDFs and detailed summaries in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
+Real data. Fixed parameters. Per-record or per-patient calibration where applicable. Full methodology available for replication. PDFs and detailed summaries in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
 
-**[shunyatacafe.com](https://shunyatacafe.com)**---
+**[shunyatacafe.com](https://shunyatacafe.com)**
+
+---
 
 ## Portfolio Overview
 
-- **Zero Training Required** - Methods work without retraining models
-- **Universal Applicability** - Evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical, quantum, and biological domains
-- **Production Ready** - Deploy immediately with existing infrastructure
-- **Validated Results** - Perfect failure prediction separation in evaluated datasets
+- **No supervised model training required** — methods work without retraining models
+- **Cross-domain applicability** — evaluated across vision, text, audio, medical, financial, mechanical, electrical, aerospace, geophysical, quantum, and biological domains
+- **Production ready** — deploy with existing infrastructure
+- **Validated results** — failure prediction separation in evaluated datasets
 
-15 provisionals
+16 provisionals
 
 ---
 
 ## Φ-Objective Controller
-### Universal Stability-Guided Control Engine
+### Stability-Guided Control Engine
 
 **Status:** Patent Filed - Application #63/984,704 (Feb 17, 2026)
 
 **The Problem:**
-All prior patents in this portfolio DETECT instability. But detection alone isn't enough. Once you know Φ is dropping, what do you DO about it? No universal method exists to read Φ telemetry from any domain adapter and select corrective actions with safety guarantees.
+All prior patents in this portfolio DETECT instability. But detection alone isn't enough. Once you know Φ is dropping, what do you DO about it? No domain-agnostic method exists to read Φ telemetry from any domain adapter and select corrective actions with safety guarantees.
 
 **Our Solution:**
 A domain-agnostic controller that reads Φ from any adapter, uses a surrogate model to predict action effects, and selects the best action subject to safety constraints. Anti-proxy rejection prevents Goodhart's Law (rejecting actions where Φ improves but task performance degrades). Stage-matched baselines prevent premature intervention.
@@ -83,7 +86,7 @@ A domain-agnostic controller that reads Φ from any adapter, uses a surrogate mo
 - Surrogate deployment gates (3 gates required before acting)
 
 **Commercial Applications:**
-- Universal controller for all Φ-monitored systems
+- Domain-agnostic controller for all Φ-monitored systems
 - Neural architecture search with safe interventions
 - Quantum circuit control
 - Industrial closed-loop maintenance
@@ -94,31 +97,31 @@ A domain-agnostic controller that reads Φ from any adapter, uses a surrogate mo
 ---
 
 ## Physiological Instability Detection
-### Universal Formula Validated on Biological Systems
+### Cross-Domain Stability Metric Applied to Biological Signals
 
 **Status:** Patent Filed - Application #63/978,132 (Feb 9, 2026)
 
 **The Problem:**
-Medical monitoring uses domain-specific algorithms for each condition. Cardiac monitors use HRV metrics. EEG systems use spectral analysis. No universal method exists to detect physiological instability across organ systems with one formula.
+Medical monitoring uses domain-specific algorithms for each condition. Cardiac monitors use HRV metrics. EEG systems use spectral analysis. No domain-agnostic method exists to detect physiological instability across organ systems with one formula.
 
 **Our Solution:**
-Apply the same Φ formula validated on bearings, power grids, and quantum qubits to biological signals. Cardiac arrhythmia detection achieves AUC 0.90. EEG seizure prediction improved with K-of-N event detection (67% sensitivity, 0.74 FA/hr) and α=0.55 optimization for neural signals.
+Apply the same Φ formula evaluated on bearings, power grids, and quantum qubits to biological signals. Cardiac arrhythmia detection achieves AUC 0.9148 on MIT-BIH. EEG seizure prediction improved with K-of-N event detection (67% single-patient sensitivity, 0.74 FA/hr) and α=0.55 optimization for multi-patient neural analysis (exploratory).
 
 **Validation:**
 - 8 tests across 3 PhysioNet datasets (MIT-BIH Arrhythmia, MIT-BIH AFib, CHB-MIT EEG)
-- Cardiac arrhythmia: AUC 0.90, shuffle gap +0.40
-- Competitive with specialist HRV metrics (within 0.07 AUC of RMSSD)
-- Resolution scaling: AUC 0.88 at 30s, 0.64 at 5s (wearable-ready)
-- AFib negative result confirms Φ detects transitions, not stable states
-- α=0.55 optimal for neural (vs 0.1 cardiac) — validates system-type adaptation
+- Cardiac arrhythmia: AUC 0.9148, shuffle gap +0.41
+- Trails best cardiac-specific HRV metric (RMSSD) by 0.0691 AUC
+- Resolution scaling: AUC 0.8775 at 30s, 0.6376 at 5s
+- AFib negative result establishes scope boundary: Φ detects transitions, not stable rhythm classification
+- α modality-dependent: 0.1 cardiac, 0.2 single-patient EEG K-of-N, 0.55 multi-patient EEG optimization
 - 69 claims
 
 **Commercial Applications:**
 - Arrhythmia monitoring wearables
 - ICU early warning systems
 - Remote cardiac monitoring
-- Seizure warning devices
-- Universal health monitoring platforms
+- Seizure warning research devices
+- Multi-modal physiological monitoring platforms
 
 [Technical summary →](https://github.com/Wise314/phi-bio-stability)
 
@@ -249,15 +252,15 @@ Use Φ to dynamically route computations between quantum hardware and classical 
 Quantum hardware exhibits variable qubit quality. Some qubits maintain coherence; others decohere rapidly. Current calibration systems use proprietary ML requiring extensive training data.
 
 **Our Solution:**
-Apply the same Φ formula validated on bearings, turbofans, and power grids to quantum hardware. Same threshold (0.25) validated on bearings, turbofans, power grids, 660 neural networks, and now 445 qubits.
+Apply the same Φ formula evaluated on bearings, turbofans, and power grids to quantum hardware. Same threshold (0.25) evaluated on bearings, turbofans, power grids, 660 neural networks, and 445 qubits.
 
-**Validation:**
+**Validation:**  
 - 445 qubits, 1004 two-qubit gates, 3 IBM backends
 - r = 0.9458 correlation with T2/T1
 - 8-63x higher error for low-Φ qubits across all circuit depths
 - 83% error reduction using Φ-based qubit selection
 - 100% dead qubit detection (all 5 identified with Φ < 0)
-- Same threshold (0.25) works across all domains
+- Same threshold (0.25) used across the evaluated domains
 
 **Commercial Applications:**
 - Quantum hardware calibration
@@ -332,7 +335,7 @@ Previous methods predict failure. This method aims to **prevent** it. Three capa
 **Three Methods, One Framework:**
 - **Inverse Design:** Calculate stability constraints at design time
 - **Closed-Loop Control:** Continuous monitoring with hierarchical intervention triggers
-- **Universal Monitoring:** Single dashboard monitors mechanical, electrical, aerospace, AI, seismic, NLP, medical, audio, and financial systems
+- **Cross-Domain Monitoring:** Single dashboard monitors mechanical, electrical, aerospace, AI, seismic, NLP, medical, audio, and financial systems
 
 **Validation:**
 - 42 systems across 10 domains evaluated
@@ -353,7 +356,7 @@ Previous methods predict failure. This method aims to **prevent** it. Three capa
 ---
 
 ## Thermodynamic Stability Prediction
-### Universal Failure Prediction Across 5 Domains
+### Cross-Domain Failure Prediction Across 5 Domains
 
 **Status:** Patent Filed - Application #63/959,205 (Jan 13, 2026)
 
@@ -447,8 +450,8 @@ Architecture search = test 100 candidates × 50 epochs = 5,000 training runs = w
 Predict total training requirements after 1 epoch = 100 runs instead of 5,000
 
 **Validation:**
-- Universal correlation (r = -0.78) across simple and complex datasets
-- Identical pattern on MNIST and CIFAR-10 (supports universality)
+- Cross-dataset correlation (r = -0.78) across simple and complex datasets
+- Identical pattern on MNIST and CIFAR-10
 - Works for MLPs and CNNs
 
 **Commercial Applications:**
@@ -485,6 +488,33 @@ A production model collapsed from 99.3% → 0.0% accuracy. Traditional monitorin
 - Voice assistants
 
 [Technical summary →](./task-identity/)
+
+---
+
+## Chain-of-Thought Reasoning Stability
+### Detect Reasoning Drift and False Coherence in LLM Chain-of-Thought Outputs
+
+**Status:** Patent Filed - Application #64/038,659 (Apr 14, 2026)
+
+**The Problem:**
+Large language models produce chain-of-thought reasoning that can look fluent and confident while containing logical breaks, contradictions, or fabricated intermediate steps. Existing approaches require ground-truth labels, expensive verifier models, or task-specific evaluation pipelines. No training-free method exists to detect when a reasoning chain is degrading mid-generation.
+
+**Our Solution:**
+Apply the same Φ formula to chain-of-thought outputs using step-to-step embedding stability. Detects two distinct reasoning failure regimes: false coherence (fluent but logically broken) and destabilized drift (semantic incoherence). Operates as both a thermometer (monitor) and thermostat (multi-chain selection).
+
+**Validation:**
+- Test 03: 10 problem pairs identified two failure regimes — 7/10 false coherence, 3/10 destabilized drift
+- Tests 06/06b: Cross-domain applicability confirmed across multiple reasoning task types
+- Multi-chain selection: Φ-based ranking outperforms naive selection on tested benchmarks
+- 40 claims covering monitoring, regime classification, and multi-chain selection
+
+**Commercial Applications:**
+- LLM reasoning quality assurance
+- Multi-chain reasoning selection
+- Production deployment guardrails for reasoning models
+- Agentic system reliability monitoring
+
+[Technical summary →](https://github.com/Wise314/cot-phi-stability)
 
 ---
 
@@ -529,7 +559,7 @@ All innovations follow rigorous validation protocols:
 - **Real Data Only** - No synthetic data generation
 - **Published Datasets** - MNIST, CIFAR-10, Fashion-MNIST, 20 Newsgroups, Wisconsin Breast Cancer, Free Spoken Digit Dataset, Lending Club Loans, NASA C-MAPSS, XJTU-SY Bearings, USGS Strainmeter, UK National Grid, IBM Quantum, PhysioNet MIT-BIH, PhysioNet CHB-MIT EEG
 - **Statistical Rigor** - P-values, significance testing, correlation analysis
-- **Cross-Domain Testing** - Multiple domains per method to evaluate universality
+- **Cross-Domain Testing** - Multiple domains per method to evaluate cross-domain applicability
 - **Historical Events** - UK blackout, 3 major earthquakes evaluated
 - **Honest Reporting** - Failed experiments documented
 - **Reproducible** - All validation code available in respective repositories
@@ -571,8 +601,8 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** February 19, 2026  
-**Patents Filed:** 15 of 15
+**Last Updated:** April 30, 2026
+**Patents Filed:** 16 of 16
 **Validation Status:** Complete across all filed innovations
 
 ---
