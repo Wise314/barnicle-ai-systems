@@ -31,12 +31,33 @@ Patent portfolio: cross-domain stability monitoring, training-free failure predi
 
 ---
 
+## 🔬 Scientific Discoveries
+
+Documented scientific discoveries from validation work across the patent portfolio. New patent rows added as Zenodo DOIs publish.
+
+| Patent | Repo | Discoveries | Paper |
+|--------|------|-------------|-------|
+| #1 Task-Identity | [task-identity](https://github.com/Wise314/task-identity) | 3 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20048912) |
+
+### Patent #1 — Task-Identity (Apps #63/906,072 and #63/981,437)
+
+1. **Embedding similarity and behavioral identity diverge catastrophically during failure.** Embedding similarity remained at 0.583 during a complete model failure while Task-Identity correctly read 0.000. They measure different things: representational structure vs decision behavior. Gap of 58.3 percentage points.
+
+2. **Accuracy is insufficient to detect behavioral drift.** A model can appear stable by traditional accuracy metrics while making fundamentally different decisions. Accuracy held at 93.6% to 93.7% while Task-Identity detected a 42.4% behavioral shift under class imbalance.
+
+3. **Aggregate behavioral identity scores mask catastrophic class-level failures in imbalanced domains.** Per-class analysis is the only signal that works. Vision: overall 0.873, poisoned classes 0.17. Financial extension (2.26M loans): overall 0.921, default class 0.000, representing 99.4% degradation in minority class detection.
+
+[Paper on Zenodo →](https://doi.org/10.5281/zenodo.20048912) | [Repo →](https://github.com/Wise314/task-identity)
+
+---
+
 ## Scientific Papers
 
 ### Published Research Behind the Patent Portfolio
 
 | Paper | Key Result | DOI |
 |-------|-----------|-----|
+| Task-Identity: Detecting Behavioral Drift Beyond Accuracy and Embedding Similarity | 11 tests across 4 domains, 58.3pp detection gap vs embedding similarity, 99.4% degradation found in 2.26M loans | [10.5281/zenodo.20048912](https://doi.org/10.5281/zenodo.20048912) |
 | A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation under one fixed protocol | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average lead time, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
 | Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | 8 domains, 42 systems, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
@@ -601,8 +622,9 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** April 30, 2026
+**Last Updated:** May 6, 2026
 **Patents Filed:** 16 of 16
+**Papers Published:** 5 on Zenodo (latest: Task-Identity, May 6, 2026)
 **Validation Status:** Complete across all filed innovations
 
 ---
