@@ -55,9 +55,10 @@ Documented scientific discoveries from validation work across the patent portfol
 
 ### Published Research Behind the Patent Portfolio
 
-| Paper | Key Result | DOI |
-|-------|-----------|-----|
-| Task-Identity: Detecting Behavioral Drift Beyond Accuracy and Embedding Similarity | 11 tests across 4 domains, 58.3pp detection gap vs embedding similarity, 99.4% degradation found in 2.26M loans | [10.5281/zenodo.20048912](https://doi.org/10.5281/zenodo.20048912) |
+| Paper | Repo | Key Result | DOI |
+|-------|------|-----------|-----|
+| Task-Identity: Detecting Behavioral Drift Beyond Accuracy and Embedding Similarity | [task-identity](https://github.com/Wise314/task-identity) | 11 tests across 4 domains, 58.3pp detection gap vs embedding similarity, 99.4% degradation found in 2.26M loans | [10.5281/zenodo.20048912](https://doi.org/10.5281/zenodo.20048912) |
+| Identity Collapse: A Measurable Degradation Regime in Bearing and Battery Systems | [system-degradation-framework](https://github.com/Wise314/system-degradation-framework) | 13 systems, 2 domains, square root dampening rescues F1 from 0.455 to 0.957 on extreme-collapse bearings | [10.5281/zenodo.20052865](https://doi.org/10.5281/zenodo.20052865) |
 | A Stability Index for Cross-Domain Degradation Detection | 31 systems, 6 domains, 100% separation under one fixed protocol | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | 445 qubits, 6.8 days average lead time, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
 | Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | 8 domains, 42 systems, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
