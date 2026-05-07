@@ -6,6 +6,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/959,205 (Jan 13, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18523292.svg)](https://doi.org/10.5281/zenodo.18523292)
+
+**Paper:** [thermodynamic-stability-prediction-paper.pdf](paper/thermodynamic-stability-prediction-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292)
+
+**Discoveries:** [Thermodynamic-Stability-Discoveries.md](Thermodynamic-Stability-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -234,30 +240,6 @@ This patent is the physics foundation for the entire portfolio:
 
 ---
 
-## Target Customers
-
-**Earthquake Early Warning:**
-- Japan Meteorological Agency, USGS, national seismic networks
-- Municipal governments, emergency management agencies
-- Reinsurance companies (Swiss Re, Munich Re, Berkshire Hathaway)
-
-**Power Grid Operators:**
-- National Grid (UK), regional US grid operators
-- Renewable energy integrators
-- Grid stability monitoring companies
-
-**Aerospace:**
-- Boeing, Airbus, GE Aviation, Pratt & Whitney, Rolls-Royce
-- Airline maintenance operations
-- Military engine programs
-
-**Industrial Equipment:**
-- GE Digital, Siemens, Honeywell, PTC, Uptake
-- Manufacturing facility operators
-- Predictive maintenance platforms
-
----
-
 ## Validation Standards
 
 ✅ **Real data only** — No synthetic data generation  
@@ -309,6 +291,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
+**Last Updated:** May 7, 2026  
 **Patent Status:** Filed  
-**Validation:** Complete (28 systems, 5 domains, 100% accuracy)
+**Paper Published:** February 8, 2026 (Zenodo DOI 10.5281/zenodo.18523292)  
+**Validation:** 28 systems across 5 engineered domains, outcome-consistent under fixed protocol
