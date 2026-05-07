@@ -6,6 +6,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/920,092 (Nov 18, 2025)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20067239.svg)](https://doi.org/10.5281/zenodo.20067239)
+
+**Paper:** [identity-framework-extensions-paper.pdf](paper/identity-framework-extensions-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20067239](https://doi.org/10.5281/zenodo.20067239)
+
+**Discoveries:** [Identity-Framework-Extensions-Discoveries.md](Identity-Framework-Extensions-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -228,25 +234,6 @@ This patent is part of a broader framework validated across multiple industries:
 
 ---
 
-## Target Customers
-
-**Pre-Trained Model Providers:**
-- Hugging Face, OpenAI, Anthropic, Scale AI, Cohere
-
-**Cloud ML Platforms:**
-- AWS SageMaker, Google Cloud AI (Vertex), Azure ML
-
-**Medical Imaging Companies:**
-- GE Healthcare, Siemens Healthineers, Philips Healthcare
-
-**Financial Services:**
-- Bloomberg, Goldman Sachs, JPMorgan, major banks and hedge funds
-
-**Enterprise ML Teams:**
-- Fortune 500 companies deploying ML at scale
-
----
-
 ## Validation Standards
 
 ✅ **Real datasets only** — No synthetic data  
@@ -299,6 +286,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
+**Last Updated:** May 7, 2026  
 **Patent Status:** Filed  
+**Paper Published:** May 7, 2026 (Zenodo DOI 10.5281/zenodo.20067239)  
 **Validation:** Complete (247 image tests + 852,607 financial records, cross-domain)
