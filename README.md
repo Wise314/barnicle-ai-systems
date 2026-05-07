@@ -41,6 +41,9 @@ Each patent has documented scientific discoveries from real-data validation. Fin
 | #4 System Degradation Framework | [system-degradation-framework](https://github.com/Wise314/system-degradation-framework) | 5 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20052865) |
 | #2 Identity Formation Detection | [identity-formation-detection](https://github.com/Wise314/identity-formation-detection) | 6 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20057039) |
 | #3 Identity Framework Extensions | [identity-framework-extensions](https://github.com/Wise314/identity-framework-extensions) | 5 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20067239) |
+| #5 Thermodynamic Stability Prediction | [thermodynamic-stability-prediction](https://github.com/Wise314/-thermodynamic-stability-prediction) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.18523292) |
+
+Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
 Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
@@ -56,7 +59,7 @@ Each repo includes a Discoveries document with full findings, methodology, evide
 | Identity Collapse: A Measurable Degradation Regime in Bearing and Battery Systems | [system-degradation-framework](https://github.com/Wise314/system-degradation-framework) | 13 systems, 2 domains, square root dampening rescues F1 from 0.455 to 0.957 on extreme-collapse bearings | [10.5281/zenodo.20052865](https://doi.org/10.5281/zenodo.20052865) |
 | Early Behavioral Identity Formation Predicts Neural Network Training Efficiency | [identity-formation-detection](https://github.com/Wise314/identity-formation-detection) | MLPs r = -0.780 (MNIST) and r = -0.781 (CIFAR-10), CNNs r = -0.987 (MNIST) and r = -0.978 (Fashion-MNIST), hard-dataset boundary documented for CNNs on CIFAR-10 | [10.5281/zenodo.20057039](https://doi.org/10.5281/zenodo.20057039) |
 | One Predictor, Two Regimes: Zero-Shot Confusion Matrix Diagonal Strength Predicts Transfer Learning Outcome Before Fine-Tuning | [identity-framework-extensions](https://github.com/Wise314/identity-framework-extensions) | Binary regime r = 0.445 (rotations, n = 96) and r = 0.495/0.564 (blur), magnitude regime r = -0.573 to -0.941 across four degradation experiments, financial regime-shift validated on 170,522 held-out loans | [10.5281/zenodo.20067239](https://doi.org/10.5281/zenodo.20067239) |
-| A Stability Index for Cross-Domain Degradation Detection | [thermodynamic-stability-prediction](https://github.com/Wise314/thermodynamic-stability-prediction) | 31 systems, 6 domains, 100% separation under one fixed protocol | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
+| A Stability Index for Cross-Domain Degradation Detection | [thermodynamic-stability-prediction](https://github.com/Wise314/-thermodynamic-stability-prediction) | 28 systems across 5 engineered domains in patent scope, outcome-consistent under fixed protocol α=0.1, Φ_c=0.25 (paper extends to 31 systems / 6 domains plus biological extensions) | [10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292) |
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware | [quantum-phi-validation](https://github.com/Wise314/quantum-phi-validation) | 445 qubits, 6.8 days average lead time, 100% detection rate | [10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745) |
 | Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | [phi-objective-controller](https://github.com/Wise314/phi-objective-controller) | 8 domains, 42 systems, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
 | A Cross-Domain Stability Metric for Cardiac Arrhythmia Detection and Physiological Instability Monitoring | [phi-bio-stability](https://github.com/Wise314/phi-bio-stability) | Cardiac AUC 0.9148 on MIT-BIH, exploratory EEG with documented bounds | (arXiv/Zenodo submission pending) |
@@ -622,7 +625,7 @@ See [LICENSE](LICENSE) for full terms.
 
 **Last Updated:** May 7, 2026
 **Patents Filed:** 16 of 16
-**Papers Published:** 8 on Zenodo (latest: Identity Framework Extensions, May 7, 2026)
+**Papers Published:** 8 on Zenodo (Patent #5 thermodynamic-stability-prediction added to portfolio May 7, 2026)
 **Validation Status:** Complete across all filed innovations
 
 ---
