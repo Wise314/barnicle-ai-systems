@@ -2,7 +2,13 @@
 
 **Predict whether any neural network architecture will succeed or fail — after just one training epoch**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/960,091 (Jan 14, 2026)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/960,091 (January 14, 2026)**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20081751.svg)](https://doi.org/10.5281/zenodo.20081751)
+
+**Paper:** [neural-phase-transition-detection-paper.pdf](Scientific-Paper/neural-phase-transition-detection-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20081751](https://doi.org/10.5281/zenodo.20081751)
+
+**Discoveries:** [Neural-Phase-Transition-Discoveries.md](Neural-Phase-Transition-Discoveries.md)
 
 ---
 
@@ -284,6 +290,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (22 architectures, 3 datasets, 95% accuracy)
+**Last Updated:** May 8, 2026  
+**Patent Status:** Filed - Application #63/960,091 (January 14, 2026)  
+**Paper Published:** May 8, 2026 (Zenodo DOI 10.5281/zenodo.20081751)  
+**Validation:** 22 architectures across 3 datasets, 21/22 correct (95%) under fixed protocol
