@@ -4,7 +4,13 @@
 
 **9 Domains | 42 Systems | 100% Accuracy | Zero Calibration Required**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/960,829 (Jan 15, 2026)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/960,829 (January 15, 2026)** *(Resubmitted)*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20080228.svg)](https://doi.org/10.5281/zenodo.20080228)
+
+**Paper:** [universal-stability-engineering-paper.pdf](paper/universal-stability-engineering-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20080228](https://doi.org/10.5281/zenodo.20080228)
+
+**Discoveries:** [Universal-Stability-Engineering-Discoveries.md](Universal-Stability-Engineering-Discoveries.md)
 
 ---
 
