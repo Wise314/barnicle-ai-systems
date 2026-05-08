@@ -4,7 +4,13 @@
 
 **660 Architectures | 2 False Kills | 99.7% Precision | Works Across 2, 10, and 100 Classes**
 
-**Status:** 🟢 **Provisional Patent Filed - Application #63/938,279 (Dec 11, 2025)**
+**Status:** 🟢 **Provisional Patent Filed - Application #63/938,279 (December 11, 2025)**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20083205.svg)](https://doi.org/10.5281/zenodo.20083205)
+
+**Paper:** [phi-controller-paper.pdf](Scientific-Paper/phi-controller-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20083205](https://doi.org/10.5281/zenodo.20083205)
+
+**Discoveries:** [Phi-Controller-Discoveries.md](Phi-Controller-Discoveries.md)
 
 ---
 
@@ -328,6 +334,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (660 architectures, 99.7% precision)
+**Last Updated:** May 8, 2026
+**Patent Status:** Filed - Application #63/938,279 (December 11, 2025)
+**Paper Published:** May 8, 2026 (Zenodo DOI 10.5281/zenodo.20083205)
+**Validation:** 660 architectures across MLPs and CNNs on 2-class, 10-class, and 100-class problems, 99.7% kill precision under fixed protocol
