@@ -1,4 +1,4 @@
-#| Closed-Loop Thermodynamic Stability Monitoring Provides  | Closed-Loop Thermodynamic Stability Monitoring Provides Shawn Barnicle | AI Independent Researcher
+Shawn Barnicle | AI Independent Researcher
 
 Patent portfolio: cross-domain stability monitoring, training-free failure prediction, and autonomous control across mechanical, electrical, aerospace, geophysical, computational, quantum, biological, and large language model systems.
 
@@ -44,8 +44,6 @@ Each patent has documented scientific discoveries from real-data validation. Fin
 | #5 Thermodynamic Stability Prediction | [thermodynamic-stability-prediction](https://github.com/Wise314/-thermodynamic-stability-prediction) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.18523292) |
 | #6 Universal Stability Engineering | [universal-stability-engineering](https://github.com/Wise314/universal-stability-engineering) | 5 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20080228) |
 | #7 Neural Phase Transition Detection | [neural-phase-transition-detection](https://github.com/Wise314/neural-phase-transition-detection) | 6 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20081751) |
-
-Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
 Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
