@@ -1,4 +1,4 @@
-Shawn Barnicle | AI Independent Researcher
+# Shawn Barnicle | AI Independent Researcher
 
 Patent portfolio: cross-domain stability monitoring, training-free failure prediction, and autonomous control across mechanical, electrical, aerospace, geophysical, computational, quantum, biological, and large language model systems.
 
