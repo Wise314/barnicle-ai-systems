@@ -8,7 +8,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20080228.svg)](https://doi.org/10.5281/zenodo.20080228)
 
-**Paper:** [universal-stability-engineering-paper.pdf](paper/universal-stability-engineering-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20080228](https://doi.org/10.5281/zenodo.20080228)
+**Paper:** [universal-stability-engineering-paper.pdf](Scientific-Paper/universal-stability-engineering-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20080228](https://doi.org/10.5281/zenodo.20080228)
 
 **Discoveries:** [Universal-Stability-Engineering-Discoveries.md](Universal-Stability-Engineering-Discoveries.md)
 
