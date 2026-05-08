@@ -4,6 +4,14 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/952,883 (Jan 2, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20088933.svg)](https://doi.org/10.5281/zenodo.20088933)
+
+**Paper (v2):** [quantum-phi-validation-paper.pdf](quantum-phi-validation-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20088933](https://doi.org/10.5281/zenodo.20088933)
+
+**Paper (v1):** [Zenodo DOI: 10.5281/zenodo.18522745](https://doi.org/10.5281/zenodo.18522745)
+
+**Discoveries:** [Quantum-Phi-Validation-Discoveries.md](Quantum-Phi-Validation-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -315,6 +323,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (445 qubits, 1,004 gates, 3 backends)
+**Last Updated:** May 8, 2026
+**Patent Status:** Filed - Application #63/952,883 (January 2, 2026)
+**Paper Published:** v2 May 8, 2026 (Zenodo DOI 10.5281/zenodo.20088933), v1 February 7, 2026 (Zenodo DOI 10.5281/zenodo.18522745)
+**Validation:** 445 qubits across three IBM Quantum backends (ibm_fez, ibm_torino, ibm_marrakesh), 1,004 two-qubit gates, 30-day temporal study, 10 of 13 substantive tests validate Phi
