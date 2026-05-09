@@ -6,6 +6,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/956,800 (Jan 9, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20093635.svg)](https://doi.org/10.5281/zenodo.20093635)
+
+**Paper:** [universal-phi-ml-paper.pdf](universal-phi-ml-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20093635](https://doi.org/10.5281/zenodo.20093635)
+
+**Discoveries:** [Universal-Phi-ML-Discoveries.md](Universal-Phi-ML-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -317,6 +323,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (445 qubits, 4 ML models, 3 backends, 98.4% cross-platform transfer)
+**Last Updated:** May 8, 2026
+**Patent Status:** Filed - Application #63/956,800 (January 9, 2026)
+**Paper Published:** May 8, 2026 (Zenodo DOI 10.5281/zenodo.20093635)
+**Validation:** 445 qubits across three IBM Quantum backends (ibm_fez, ibm_torino, ibm_marrakesh), 8 strict backend-split tests, 4 ML model types, 98.4% cross-platform transfer balanced accuracy
