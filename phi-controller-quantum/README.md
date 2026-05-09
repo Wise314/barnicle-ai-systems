@@ -4,6 +4,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/973,723 (Feb 2, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20097808.svg)](https://doi.org/10.5281/zenodo.20097808)
+
+**Paper:** [phi-controller-quantum-paper.pdf](phi-controller-quantum-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20097808](https://doi.org/10.5281/zenodo.20097808)
+
+**Discoveries:** [Phi-Controller-Quantum-Discoveries.md](Phi-Controller-Quantum-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -293,6 +299,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (10/10 tests, 3 IBM backends, 445 qubits)
+**Last Updated:** May 9, 2026
+**Patent Status:** Filed - Application #63/973,723 (February 2, 2026)
+**Paper Published:** May 9, 2026 (Zenodo DOI 10.5281/zenodo.20097808)
+**Validation:** 10 paid circuit tests on 3 IBM Quantum backends (ibm_fez, ibm_torino, ibm_marrakesh), 5 intervention actions (CONTINUE, CONTINUE-DEGRADED, CLASSICAL-FALLBACK, CHECKPOINT-MIGRATE, ABORT-RESTART), 85.1% relative error reduction from LOW-Phi to HIGH-Phi qubits on identical Deutsch-Jozsa circuit, 68.7% relative error reduction over raw T2 selection under matched conditions, 98.78% per-shot mid-circuit branching consistency, Wilson CI statistical intervention triggered on 1 of 3 backends
