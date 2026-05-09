@@ -4,6 +4,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/978,132 (Feb 9, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098879.svg)](https://doi.org/10.5281/zenodo.20098879)
+
+**Paper:** [phi-bio-stability-paper.pdf](phi-bio-stability-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20098879](https://doi.org/10.5281/zenodo.20098879)
+
+**Discoveries:** [Phi-Bio-Stability-Discoveries.md](Phi-Bio-Stability-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -294,6 +300,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (8 tests across 3 PhysioNet datasets)
+**Last Updated:** May 9, 2026
+**Patent Status:** Filed - Application #63/978,132 (February 9, 2026)
+**Paper Published:** May 9, 2026 (Zenodo DOI 10.5281/zenodo.20098879)
+**Validation:** MIT-BIH Arrhythmia AUC 0.9148 across 1,022 windows from 34 records with shuffle audit AUC 0.5003, MIT-BIH AFib boundary AUC 0.5556 across 11,988 windows defining transition vs stable-state scope, resolution scaling from 60s to 5s windows (0.9148 to 0.6376 AUC), Phi vs 16 HRV metrics ranked sixth at 0.9015 AUC trailing RMSSD by 0.0691, exploratory CHB-MIT EEG K-of-N event detection 67% single-patient sensitivity at 0.74 false alarms per hour with patient-specific direction calibration
