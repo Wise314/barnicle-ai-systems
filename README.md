@@ -50,6 +50,7 @@ Each patent has documented scientific discoveries from real-data validation. Fin
 | #15 Phi Hybrid Allocation | [phi-hybrid-allocation](https://github.com/Wise314/phi-hybrid-allocation) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20094713) |
 | #17 Phi Controller Quantum | [phi-controller-quantum](https://github.com/Wise314/phi-controller-quantum) | 10 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20097808) |
 | #18 LLM Phi Stability | [llm-phi-stability](https://github.com/Wise314/llm-phi-stability) | 8 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20098298) |
+| #19 Phi Bio Stability | [phi-bio-stability](https://github.com/Wise314/phi-bio-stability) | 8 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20098879) |
 Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
 ---
@@ -69,7 +70,7 @@ Each repo includes a Discoveries document with full findings, methodology, evide
 | Predicting Neural Network Architecture Viability After One Training Epoch via an Identity Deficit Threshold | [neural-phase-transition-detection](https://github.com/Wise314/neural-phase-transition-detection) | 22 architectures across 3 datasets (MNIST, Fashion-MNIST, CIFAR-10), 21/22 correct (95%) with fixed threshold I_c = 0.22 and 80% formed-identity cutoff, zero false positives observed | [10.5281/zenodo.20081751](https://doi.org/10.5281/zenodo.20081751) |
 | Trajectory-Aware Stability Supervision for Neural Architecture Search Using a Phi Controller Across 2, 10, and 100 Class Counts | [phi-controller](https://github.com/Wise314/phi-controller) | 660 architectures across MLPs and CNNs on 2-class, 10-class, and 100-class problems, 2 false kills (99.7% kill precision), 0 false kills vs 20 false kills for early stopping with patience=5 in head-to-head comparison on 30 architectures | [10.5281/zenodo.20083205](https://doi.org/10.5281/zenodo.20083205) |
 | Φ = I × ρ − α × S: A Domain-Agnostic Stability Metric and Autonomous Controller | [phi-objective-controller](https://github.com/Wise314/phi-objective-controller) | 8 domains, 42 systems, autonomous controller with anti-Goodhart safeguards | [10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052) |
-| A Cross-Domain Stability Metric for Cardiac Arrhythmia Detection and Physiological Instability Monitoring | [phi-bio-stability](https://github.com/Wise314/phi-bio-stability) | Cardiac AUC 0.9148 on MIT-BIH, exploratory EEG with documented bounds | (arXiv/Zenodo submission pending) |
+| A Cross-Domain Stability Metric for Cardiac Arrhythmia Detection and Physiological Instability Monitoring | [phi-bio-stability](https://github.com/Wise314/phi-bio-stability) | MIT-BIH Arrhythmia AUC 0.9148 across 1,022 windows from 34 records with shuffle audit AUC 0.5003, MIT-BIH AFib boundary AUC 0.5556 across 11,988 windows defining transition vs stable-state scope, resolution scaling from 60s to 5s windows (0.9148 to 0.6376 AUC), Phi vs 16 HRV metrics ranked sixth at 0.9015 AUC trailing RMSSD by 0.0691, exploratory CHB-MIT EEG K-of-N event detection 67% single-patient sensitivity at 0.74 false alarms per hour | [10.5281/zenodo.20098879](https://doi.org/10.5281/zenodo.20098879) |
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware (v2) | [quantum-phi-validation](https://github.com/Wise314/quantum-phi-validation) | 445 qubits, 6.8 days average lead time, 100% detection rate, plus dead qubit detection, two-qubit gate, depth scaling, GHZ entanglement, threshold sensitivity validation added in v2 | [10.5281/zenodo.20088933](https://doi.org/10.5281/zenodo.20088933) |
 | Training-Free Stability Components for Cross-Backend Qubit Quality Prediction on IBM Quantum Hardware | [universal-phi-ml](https://github.com/Wise314/universal-phi-ml) | 445 qubits across 3 IBM backends, 98.4% balanced accuracy on cross-backend transfer, ρ dominant predictor at 70 to 78% feature importance, all 4 ML model types exceed 80% | [10.5281/zenodo.20093635](https://doi.org/10.5281/zenodo.20093635) |
 | Phi-Based Quantum-Classical Routing: Empirical Evidence for a Crossover Regime on IBM Quantum Hardware | [phi-hybrid-allocation](https://github.com/Wise314/phi-hybrid-allocation) | 23 tests across 7 algorithms on 3 IBM backends, strict methodology with verified physical qubit binding, error ratios from 2.90x (QPE) to 30.47x (Bernstein-Vazirani), classical simulation outperforms LOW-Phi quantum execution in tested classically tractable circuits | [10.5281/zenodo.20094713](https://doi.org/10.5281/zenodo.20094713) |
@@ -637,7 +638,7 @@ See [LICENSE](LICENSE) for full terms.
 
 **Last Updated:** May 8, 2026
 **Patents Filed:** 16 of 16
-**Papers Published:** 15 on Zenodo (latest: LLM Phi Stability, May 9, 2026)
+**Papers Published:** 16 on Zenodo (latest: Phi Bio Stability, May 9, 2026)
 **Validation Status:** Complete across all filed innovations
 
 ---
