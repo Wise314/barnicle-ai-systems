@@ -48,6 +48,7 @@ Each patent has documented scientific discoveries from real-data validation. Fin
 | #9 Quantum Phi Validation | [quantum-phi-validation](https://github.com/Wise314/quantum-phi-validation) | 8 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20088933) |
 | #16 Universal Phi ML | [universal-phi-ml](https://github.com/Wise314/universal-phi-ml) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20093635) |
 | #15 Phi Hybrid Allocation | [phi-hybrid-allocation](https://github.com/Wise314/phi-hybrid-allocation) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20094713) |
+| #17 Phi Controller Quantum | [phi-controller-quantum](https://github.com/Wise314/phi-controller-quantum) | 10 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20097808) |
 Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
 ---
@@ -71,6 +72,7 @@ Each repo includes a Discoveries document with full findings, methodology, evide
 | Thermodynamic Stability Metric Provides Early Warning of Qubit Degradation on IBM Quantum Hardware (v2) | [quantum-phi-validation](https://github.com/Wise314/quantum-phi-validation) | 445 qubits, 6.8 days average lead time, 100% detection rate, plus dead qubit detection, two-qubit gate, depth scaling, GHZ entanglement, threshold sensitivity validation added in v2 | [10.5281/zenodo.20088933](https://doi.org/10.5281/zenodo.20088933) |
 | Training-Free Stability Components for Cross-Backend Qubit Quality Prediction on IBM Quantum Hardware | [universal-phi-ml](https://github.com/Wise314/universal-phi-ml) | 445 qubits across 3 IBM backends, 98.4% balanced accuracy on cross-backend transfer, ρ dominant predictor at 70 to 78% feature importance, all 4 ML model types exceed 80% | [10.5281/zenodo.20093635](https://doi.org/10.5281/zenodo.20093635) |
 | Phi-Based Quantum-Classical Routing: Empirical Evidence for a Crossover Regime on IBM Quantum Hardware | [phi-hybrid-allocation](https://github.com/Wise314/phi-hybrid-allocation) | 23 tests across 7 algorithms on 3 IBM backends, strict methodology with verified physical qubit binding, error ratios from 2.90x (QPE) to 30.47x (Bernstein-Vazirani), classical simulation outperforms LOW-Phi quantum execution in tested classically tractable circuits | [10.5281/zenodo.20094713](https://doi.org/10.5281/zenodo.20094713) |
+| Closed-Loop Phi-Based Intervention During Quantum Circuit Execution on IBM Quantum Hardware | [phi-controller-quantum](https://github.com/Wise314/phi-controller-quantum) | 10 paid circuit tests on 3 IBM backends, 85.1% relative error reduction from LOW-Phi to HIGH-Phi qubits on identical Deutsch-Jozsa circuit, 68.7% relative reduction over raw T2 selection, 98.78% per-shot mid-circuit branching consistency, Wilson CI statistical intervention triggered on 1 of 3 backends, classical checkpoint migration with 82.15% final fidelity | [10.5281/zenodo.20097808](https://doi.org/10.5281/zenodo.20097808) |
 
 Real data. Fixed parameters. Per-record or per-patient calibration where applicable. Full methodology available for replication. PDFs and detailed summaries in [stability-metric-foundations-Papers](./stability-metric-foundations-Papers/).
 
@@ -633,7 +635,7 @@ See [LICENSE](LICENSE) for full terms.
 
 **Last Updated:** May 8, 2026
 **Patents Filed:** 16 of 16
-**Papers Published:** 13 on Zenodo (latest: Phi Hybrid Allocation, May 9, 2026)
+**Papers Published:** 14 on Zenodo (latest: Phi Controller Quantum, May 9, 2026)
 **Validation Status:** Complete across all filed innovations
 
 ---
