@@ -4,6 +4,12 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/973,673 (Feb 2, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098298.svg)](https://doi.org/10.5281/zenodo.20098298)
+
+**Paper:** [llm-phi-stability-paper.pdf](llm-phi-stability-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20098298](https://doi.org/10.5281/zenodo.20098298)
+
+**Discoveries:** [LLM-Phi-Stability-Discoveries.md](LLM-Phi-Stability-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -266,6 +272,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (8/8 tests + scale validation)
+**Last Updated:** May 9, 2026
+**Patent Status:** Filed - Application #63/973,673 (February 2, 2026)
+**Paper Published:** May 9, 2026 (Zenodo DOI 10.5281/zenodo.20098298)
+**Validation:** 8 tests on TinyLlama 1.1B-Chat plus scale-validation on Phi-2 (2.7B), 0.282 quality drift on temperature shift, 0.072 safety-regime drift accompanied by refusal rate drop from 14% to 3%, 0.254 fine-tuning drift between base and instruction-tuned checkpoints, 0.207 adversarial injection drift with matched sampling seeds, -0.97 correlation between Phi and temperature across 8 temperature points
