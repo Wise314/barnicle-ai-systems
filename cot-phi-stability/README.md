@@ -4,6 +4,11 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #64/038,659 (Apr 14, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20110938.svg)](https://doi.org/10.5281/zenodo.20110938)
+
+**Paper:** [cot_phi_stability_paper.pdf](cot_phi_stability_paper.pdf) | [Zenodo DOI: 10.5281/zenodo.20110938](https://doi.org/10.5281/zenodo.20110938)
+**Discoveries:** [Cot-Phi-Stability-Discoveries.md](Cot-Phi-Stability-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -358,6 +363,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** April 30, 2026  
-**Patent Status:** Filed  
-**Validation:** Multiple tests across reasoning, RAG, and agentic domains with documented negative results
+**Last Updated:** May 10, 2026
+**Patent Status:** Filed - U.S. Provisional Application No. 64/038,659 (April 14, 2026)
+**Paper Published:** May 10, 2026 (Zenodo DOI 10.5281/zenodo.20110938)
+**Validation:** GSM8K baseline 10/10 stable chains mean Phi 0.520, PRM800K matched pairs revealed two failure regimes (false coherence 7 of 10, destabilized drift 3 of 10), self-consistency selection negative result across three Phi-based strategies (40 to 50 percent vs 70 percent raw majority), cross-domain validation across math factual q

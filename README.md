@@ -51,6 +51,7 @@ Each patent has documented scientific discoveries from real-data validation. Fin
 | #17 Phi Controller Quantum | [phi-controller-quantum](https://github.com/Wise314/phi-controller-quantum) | 10 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20097808) |
 | #18 LLM Phi Stability | [llm-phi-stability](https://github.com/Wise314/llm-phi-stability) | 8 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20098298) |
 | #19 Phi Bio Stability | [phi-bio-stability](https://github.com/Wise314/phi-bio-stability) | 8 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20098879) |
+| #21 CoT Phi Stability | [cot-phi-stability](https://github.com/Wise314/cot-phi-stability) | 7 | [Zenodo DOI](https://doi.org/10.5281/zenodo.20110938) |
 Each repo includes a Discoveries document with full findings, methodology, evidence, and prior art positioning.
 
 ---
@@ -636,9 +637,9 @@ See [LICENSE](LICENSE) for full terms.
 
 ---
 
-**Last Updated:** May 8, 2026
+**Last Updated:** May 10, 2026
 **Patents Filed:** 16 of 16
-**Papers Published:** 16 on Zenodo (latest: Phi Bio Stability, May 9, 2026)
+**Papers Published:** 17 on Zenodo (latest: CoT Phi Stability, May 10, 2026)
 **Validation Status:** Complete across all filed innovations
 
 ---
