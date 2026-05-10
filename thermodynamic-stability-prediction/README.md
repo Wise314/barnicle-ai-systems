@@ -6,9 +6,9 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/959,205 (Jan 13, 2026)**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18523292.svg)](https://doi.org/10.5281/zenodo.18523292)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20112188.svg)](https://doi.org/10.5281/zenodo.20112188)
 
-**Paper:** [thermodynamic-stability-prediction-paper.pdf](paper/thermodynamic-stability-prediction-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.18523292](https://doi.org/10.5281/zenodo.18523292)
+**Paper:** [thermodynamic-stability-prediction-paper.pdf](paper/thermodynamic-stability-prediction-paper.pdf) | [Zenodo DOI (v2): 10.5281/zenodo.20112188](https://doi.org/10.5281/zenodo.20112188) | [Concept DOI: 10.5281/zenodo.18523291](https://doi.org/10.5281/zenodo.18523291)
 
 **Discoveries:** [Thermodynamic-Stability-Discoveries.md](Thermodynamic-Stability-Discoveries.md)
 
@@ -291,7 +291,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** May 7, 2026  
-**Patent Status:** Filed  
-**Paper Published:** February 8, 2026 (Zenodo DOI 10.5281/zenodo.18523292)  
-**Validation:** 28 systems across 5 engineered domains, outcome-consistent under fixed protocol
+**Last Updated:** May 10, 2026
+**Patent Status:** Filed
+**Paper Published:** v2 May 10, 2026 (Zenodo DOI 10.5281/zenodo.20112188); v1 February 8, 2026 (Zenodo DOI 10.5281/zenodo.18523292); Concept DOI 10.5281/zenodo.18523291
+**Validation:** 8 substrate families with regime-separation evidence (mechanical bearings, aerospace turbofans, electrical grids, geophysical strainmeter and foreshock catalog, quantum qubits, computational neural-network architectures), scope-boundary evidence on biological cardiac (arrhythmia AUC 0.9148, AFib AUC 0.5556), observational structural-role evidence on large language models, preregistered forward test on Bearing2_1 with end-of-life Phi -0.342 satisfying preregistered criterion under git-documented commitment chain
