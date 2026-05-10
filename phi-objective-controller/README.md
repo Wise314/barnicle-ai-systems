@@ -4,6 +4,11 @@
 
 **Status:** 🟢 **Provisional Patent Filed - Application #63/984,704 (Feb 17, 2026)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18684052.svg)](https://doi.org/10.5281/zenodo.18684052)
+
+**Paper:** [phi-objective-controller-paper.pdf](phi-objective-controller-paper.pdf) | [Zenodo DOI: 10.5281/zenodo.18684052](https://doi.org/10.5281/zenodo.18684052)
+**Discoveries:** [Phi-Objective-Controller-Discoveries.md](Phi-Objective-Controller-Discoveries.md)
+
 ---
 
 ## 🚀 The Breakthrough
@@ -295,6 +300,7 @@ This document describes patented and patent-pending inventions. Viewing does NOT
 
 ---
 
-**Last Updated:** February 2026  
-**Patent Status:** Filed  
-**Validation:** Complete (20 seeds, Phase 1 + Phase 2D, controlled execution)
+**Last Updated:** May 10, 2026
+**Patent Status:** Filed - U.S. Provisional Application No. 63/984,704 (February 17, 2026)
+**Paper Published:** February 18, 2026 (Zenodo DOI 10.5281/zenodo.18684052)
+**Validation:** Three domains validated (Neural SGD Run 16-L4 14/20 wins +0.084%, Quantum March 1, 2026 milestone 8/1/0 (88.9%) at +4.69% across three IBM backends, Bearings 13/15 XJTU detection (87%) plus simulator A/B 10/10 wins +0.067), cross-validation 12/20 wins +0.073% out-of-sample, Adam optimizer transfer pilot 2/5 wins +0.044%, May 3, 2026 expanded Quantum run with backend-dependent breakdown (fez 10/0 +4.59%, marrakesh 5/5 do-no-harm, kingston 0/10 -2.49% diagnostic), n=30 Quantum surrogate pilot deployment_eligible=false with 65% LOSO MAE reduction
