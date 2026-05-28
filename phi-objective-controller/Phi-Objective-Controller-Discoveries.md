@@ -186,6 +186,22 @@ The +0.048 kingston swing exceeded the measured surrogate-vs-heuristic effect si
 
 ---
 
+### Discovery 11: Recorded Decision-Time Calibration Features Did Not Contain Residual Signal Beyond the Heuristic's Predicted-Success Gain, Bounding the Case for a Live-Calibration V3 Surrogate on the Existing Kingston Evidence
+
+**Finding:** A free offline analysis of the heuristic controller's own migration decisions across three real-hardware snapshots (May 3, May 16, May 17, 2026) found that the ibm_kingston migration outcome was not predicted by any recorded decision-time calibration feature in the logged data analyzed. Near-identical decision-time feature signatures produced opposite realized outcomes on different calibration days: kingston decision-time features barely moved across the three days (current predicted success 0.807/0.892/0.843, best predicted success 0.968/0.955/0.954, current-qubit min phi 0.212/0.207/0.292, best-target min phi 0.131/0.102/0.108, gain margin +0.161/+0.064/+0.111) yet the realized mean delta versus the t2-only baseline flipped sign: -0.0249 May 3 (all ten hurt), +0.0231 May 16, +0.0262 May 17 (all ten helped). The day with the largest gain margin (+0.161, May 3) was the day migration hurt, so where features vary across days they point the wrong way.
+
+**Problem it solves:** After Test 2A.7 falsified the n=60 v2 surrogate (Discovery 10) and the nonstationarity boundary was set (Discovery 9), the open question was whether a live-calibration-reading surrogate ("v3") could beat the heuristic where the frozen v2 could not. This gives a negative go/no-go result for building v3 from the currently recorded feature set, before any v3 was designed or any paid credits spent.
+
+**Why it matters:** Within the recorded feature set, the limit is informational, not architectural. The heuristic already consumes the strongest recorded decision-time signals (current and best predicted success, hence the gain margin) every run, and beyond that gain margin no recorded decision-time feature separated helped from hurt migrations. The discriminating variable in this data is the day's realized calibration-outcome regime, which is not a decision-time input under any feature schema the system currently records and is only revealed after execution. A learned model using only these recorded features would not have a stable recoverable mapping, because the same feature signature mapped to opposite outcomes depending on a variable absent from the recorded features.
+
+**Methodology:** Existing logged data only, no paid credits. For each heuristic migration across the three real-calibration snapshots, decision-time features from the migration-debug audit were paired with the realized final delta versus the matched t2-only hardware baseline. Outcomes were split by sign within each snapshot and backend (within-snapshot deliberately, to avoid the calendar confound). All claims confined to taken-arm outcomes; no counterfactual data. Small n (ten migrations per backend per snapshot), exploratory, no statistical claims.
+
+**Evidence:** Kingston features near-constant across snapshots (above) with mean delta -0.0249/+0.0231/+0.0262, a sign flip. Fez helped in all three (mean +0.0459/+0.0136/+0.0171). Within each backend-snapshot cell of ten seeds the decision-time feature vector was identical (one distinct feature-tuple per cell in five of six cells; fez May 17 had two near-identical tuples differing only in predicted-success values, with one noise-level HURT seed at -0.0033), so within-cell delta spread is shot noise uncorrelated with any recorded feature. The heuristic's gain margin, the strongest recorded signal, was largest on the one day migration hurt.
+
+**Negative results:** Exploratory, small-sample, one-arm-only; no statistical or counterfactual claim made. Establishes absence of a usable decision-time predictor in features recorded to date, not impossibility under some unrecorded feature (e.g. shot-level calibration detail, calibration age, queue or transpilation metadata, an explicit backend-drift model) — none identified here, and the regime-defining variable as understood is post-execution. Does not diminish the heuristic (Discovery 6) or reopen the v2-schema question (Discovery 10). The v3 (live-calibration surrogate on currently recorded features) was not built and no paid run conducted, because the win it would require is not visible in the currently recorded decision-time features. A v3 on features the system does not yet record remains logically open but unevidenced.
+
+**Patent:** Patent #20, App #63/984,704 | **Repo:** phi-objective-controller
+
 ## Summary
 
 | Discovery | Topic | Result Type |
@@ -200,6 +216,7 @@ The +0.048 kingston swing exceeded the measured surrogate-vs-heuristic effect si
 | 8 | XJTU 13/15 detection plus simulator 10/10 surrogate-guided wins | Hardened positive (two layers) |
 | 9 | Calibration-state nonstationarity at sub-monthly timescales can exceed controller-strategy effect sizes by 8x (kingston May 3 to May 16 sign flip, +0.048 swing); data-freshness is a quantum-control boundary applicable to any data-driven approach | Quantum-control boundary finding (with pre-registration discipline) |
 | 10 | Action/backend collinearity in n=60 quantum surrogate falsified Test 2A.7; diagnosed as decisive-row attribution plus deterministic-policy collection producing out-of-support scoring; six-part runtime remediation (scorer runtime-verified, runner review-verified) | Negative-result-driven structural finding + remediation |
+| 11 | Recorded decision-time features contain no residual signal beyond the heuristic's gain margin; kingston outcome sign-flips at near-constant features, so a v3 on current features has no target. Informational limit, found free, no credits | Negative go/no-go (closes live-calibration v3 path on existing evidence) |
 
 ---
 
